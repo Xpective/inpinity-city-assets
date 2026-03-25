@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Building</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <a class="badge" href="index.html">← zurück zur Übersicht</a>
+      <div class="hero-asset" style="margin-top:18px">
+        <div class="hero-image"><img id="heroImage" src="" alt=""></div>
+        <div class="panel">
+          <small class="kicker">Personal Building / HTML Detail View</small>
+          <h1 id="buildingName">Residence</h1>
+          <p class="lead"><span id="buildingRole"></span><br><span id="buildingDesc"></span></p>
+          <div class="chip-row" style="margin:18px 0">
+            <span class="chip" id="factionPill">Inpinity Variant</span>
+            <span class="chip">creator-settable URI ready</span>
+            <span class="chip">Cloudflare asset routing ready</span>
+          </div>
+          <div class="controls">
+            <a class="button primary" id="assetLink" href="" target="_blank" rel="noreferrer">Image öffnen</a>
+            <a class="button" id="metadataLink" href="" target="_blank" rel="noreferrer">Metadata öffnen</a>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <section class="grid grid-2">
+      <article class="panel">
+        <h2>Routing / NFT URI</h2>
+        <div class="kv">
+          <div class="muted">Image URI</div><div class="addr" id="imageUri"></div>
+          <div class="muted">Metadata URI</div><div class="addr" id="metadataUri"></div>
+          <div class="muted">External URL</div><div class="addr" id="externalUri"></div>
+        </div>
+        <div class="notice warn" style="margin-top:16px">
+          Diese Repo-Version liefert Archetyp-Assets und Beispiel-Metadata. TokenId-spezifische URIs können später auf CityBuildingNFTV1 / creator-settable tokenURI erweitert werden.
+        </div>
+      </article>
+
+      <article class="panel">
+        <h2>Placement Voraussetzungen</h2>
+        <div id="requirements" class="chip-row"></div>
+        <h3 style="margin-top:18px">Synergien</h3>
+        <div id="synergies" class="chip-row"></div>
+      </article>
+    </section>
+
+    <section class="grid grid-2" style="margin-top:18px">
+      <article class="panel">
+        <h2>Sample Metadata</h2>
+        <div class="code-box"><pre id="metadataPreview"></pre></div>
+      </article>
+      <article class="panel">
+        <h2>Empfohlene Contract-Schichtung</h2>
+        <div class="grid">
+          <div class="contract-card"><strong>CityBuildingNFTV1</strong><div class="muted">Asset / Identity / DNA / URI / Provenance</div></div>
+          <div class="contract-card"><strong>PersonalBuildings</strong><div class="muted">Mint / Upgrade / Specialize / Adapters / Wrappers</div></div>
+          <div class="contract-card"><strong>CityBuildingPlacement</strong><div class="muted">Plot ↔ Building Truth, placement snapshots</div></div>
+          <div class="contract-card"><strong>CityBuildingFunctionRegistry</strong><div class="muted">Ableitungen für Profile, Tiers, Branches, Synergien</div></div>
+          <div class="contract-card"><strong>CityBuildingVault</strong><div class="muted">Warehouse-only storage, repair, decay, raid prep</div></div>
+        </div>
+      </article>
+    </section>
+
+    <section id="contractGroups" class="grid grid-2" style="margin-top:18px"></section>
+
+    <section class="panel" style="margin-top:18px">
+      <h2>Frontend-Use-Case</h2>
+      <table class="table">
+        <thead><tr><th>Schritt</th><th>Live Contract</th><th>UI-Bedeutung</th></tr></thead>
+        <tbody>
+          <tr><td>City Key setzen</td><td>CityRegistry</td><td>NFT als Schlüssel für City-Zugang binden.</td></tr>
+          <tr><td>Faction wählen</td><td>CityRegistry</td><td>Inpinity / Inphinity-Variante und District-Kontext festlegen.</td></tr>
+          <tr><td>Plot reservieren</td><td>CityRegistry</td><td>Persönlichen 5x5-Plot onchain erzeugen.</td></tr>
+          <tr><td>Qubiq abschließen</td><td>CityLand</td><td>Plot baut sich Zelle für Zelle bis Placement freigegeben ist.</td></tr>
+          <tr><td>Placement validieren</td><td>CityStatus / CityValidation</td><td>LayerEligible / Dormant / Personal-Owner-Regeln prüfen.</td></tr>
+          <tr><td>Building UI öffnen</td><td>Dieses Frontend</td><td>Schönere HTML-Ansicht mit Assets, Metadata und ABI-Zugriffen.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <div class="footer">Residence-Style Detailansicht für Inpinity City Personal Buildings.</div>
+  </div>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,640 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "initialOwner",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "cityConfigAddress",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [],
+    "name": "InvalidConfig",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "InvalidFaction",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "InvalidValue",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "MaxPersonalPlotsReached",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "NotPlotOwner",
+    "type": "error"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "owner",
+        "type": "address"
+      }
+    ],
+    "name": "OwnableInvalidOwner",
+    "type": "error"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "OwnableUnauthorizedAccount",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "PlotNotFound",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "PlotSlotOccupied",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "ZeroAddress",
+    "type": "error"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "tokenId",
+        "type": "uint256"
+      }
+    ],
+    "name": "CityKeyTokenSet",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "plotId",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "internalType": "enum CityTypes.CommunityBuildingKind",
+        "name": "buildingKind",
+        "type": "uint8"
+      }
+    ],
+    "name": "CommunityPlotReserved",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "enum CityTypes.Faction",
+        "name": "faction",
+        "type": "uint8"
+      }
+    ],
+    "name": "FactionChosen",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "previousOwner",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "OwnershipTransferred",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "owner",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "plotId",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint8",
+        "name": "slotIndex",
+        "type": "uint8"
+      },
+      {
+        "indexed": false,
+        "internalType": "enum CityTypes.Faction",
+        "name": "faction",
+        "type": "uint8"
+      }
+    ],
+    "name": "PersonalPlotReserved",
+    "type": "event"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "enum CityTypes.Faction",
+        "name": "faction",
+        "type": "uint8"
+      }
+    ],
+    "name": "chooseFaction",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "chosenFactionOf",
+    "outputs": [
+      {
+        "internalType": "enum CityTypes.Faction",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "cityConfig",
+    "outputs": [
+      {
+        "internalType": "contract CityConfig",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "cityDistricts",
+    "outputs": [
+      {
+        "internalType": "contract ICityDistricts",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "cityHistory",
+    "outputs": [
+      {
+        "internalType": "contract ICityHistory",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "cityKeyTokenOf",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "enum CityTypes.Faction",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "name": "factionPlotCount",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "internalType": "uint8",
+        "name": "slotIndex",
+        "type": "uint8"
+      }
+    ],
+    "name": "getPersonalPlot",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "plotId",
+        "type": "uint256"
+      }
+    ],
+    "name": "getPlotCore",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "id",
+            "type": "uint256"
+          },
+          {
+            "internalType": "enum CityTypes.PlotType",
+            "name": "plotType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "enum CityTypes.Faction",
+            "name": "faction",
+            "type": "uint8"
+          },
+          {
+            "internalType": "enum CityTypes.PlotStatus",
+            "name": "status",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address",
+            "name": "owner",
+            "type": "address"
+          },
+          {
+            "internalType": "uint32",
+            "name": "width",
+            "type": "uint32"
+          },
+          {
+            "internalType": "uint32",
+            "name": "height",
+            "type": "uint32"
+          },
+          {
+            "internalType": "uint64",
+            "name": "createdAt",
+            "type": "uint64"
+          },
+          {
+            "internalType": "bool",
+            "name": "exists",
+            "type": "bool"
+          }
+        ],
+        "internalType": "struct CityTypes.PlotCore",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "hasCityKeyOf",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "nextPlotId",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "owner",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "personalPlotCountOf",
+    "outputs": [
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "name": "personalPlotSlotsOf",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "plotId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bool",
+        "name": "occupied",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "plotCoreOf",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
+      },
+      {
+        "internalType": "enum CityTypes.PlotType",
+        "name": "plotType",
+        "type": "uint8"
+      },
+      {
+        "internalType": "enum CityTypes.Faction",
+        "name": "faction",
+        "type": "uint8"
+      },
+      {
+        "internalType": "enum CityTypes.PlotStatus",
+        "name": "status",
+        "type": "uint8"
+      },
+      {
+        "internalType": "address",
+        "name": "owner",
+        "type": "address"
+      },
+      {
+        "internalType": "uint32",
+        "name": "width",
+        "type": "uint32"
+      },
+      {
+        "internalType": "uint32",
+        "name": "height",
+        "type": "uint32"
+      },
+      {
+        "internalType": "uint64",
+        "name": "createdAt",
+        "type": "uint64"
+      },
+      {
+        "internalType": "bool",
+        "name": "exists",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "renounceOwnership",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "enum CityTypes.CommunityBuildingKind",
+        "name": "buildingKind",
+        "type": "uint8"
+      }
+    ],
+    "name": "reserveCommunityPlot",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "plotId",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint8",
+        "name": "slotIndex",
+        "type": "uint8"
+      }
+    ],
+    "name": "reserveNextPersonalPlot",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "plotId",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "cityDistrictsAddress",
+        "type": "address"
+      }
+    ],
+    "name": "setCityDistricts",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "cityHistoryAddress",
+        "type": "address"
+      }
+    ],
+    "name": "setCityHistory",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "tokenId",
+        "type": "uint256"
+      }
+    ],
+    "name": "setCityKeyToken",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "transferOwnership",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

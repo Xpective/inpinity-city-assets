@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "residence",
+    "name": "Residence",
+    "promptFile": "/prompts/personal-buildings/residence.md"
+  },
+  {
+    "slug": "farming-hub",
+    "name": "Farming Hub",
+    "promptFile": "/prompts/personal-buildings/farming-hub.md"
+  },
+  {
+    "slug": "forge",
+    "name": "Forge",
+    "promptFile": "/prompts/personal-buildings/forge.md"
+  },
+  {
+    "slug": "warehouse",
+    "name": "Warehouse",
+    "promptFile": "/prompts/personal-buildings/warehouse.md"
+  },
+  {
+    "slug": "market-stall",
+    "name": "Market Stall",
+    "promptFile": "/prompts/personal-buildings/market-stall.md"
+  },
+  {
+    "slug": "guard-tower",
+    "name": "Guard Tower",
+    "promptFile": "/prompts/personal-buildings/guard-tower.md"
+  },
+  {
+    "slug": "research-lab",
+    "name": "Research Lab",
+    "promptFile": "/prompts/personal-buildings/research-lab.md"
+  }
+]

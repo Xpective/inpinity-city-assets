@@ -1,0 +1,78 @@
+{
+  "ui": {
+    "appName": "Inpinity City Personal Buildings",
+    "cityAppDomain": "https://city.inpinity.online",
+    "assetsDomain": "https://assets.inpinity.online"
+  },
+  "cityCore": {
+    "CityConfig": {
+      "address": "0x565076216ec76E7Af61BafBE22D8EA7C1C8DF691",
+      "abi": "/assets/abis/city-core/CityConfig.json"
+    },
+    "CityRegistry": {
+      "address": "0x5d3269813Fea0C0F487A21cBf9992b95008558BF",
+      "abi": "/assets/abis/city-core/CityRegistry.json"
+    },
+    "CityLand": {
+      "address": "0x0547a35c2Ff215004A2EBfe2Be5f3A8EeE6A5323",
+      "abi": "/assets/abis/city-core/CityLand.json"
+    },
+    "CityDistricts": {
+      "address": "0xB3cFaeDA09FB5ee84C3c26F276980773197af113",
+      "abi": "/assets/abis/city-core/CityDistricts.json"
+    },
+    "CityStatus": {
+      "address": "0x28AfE371044e9AcD4C99Bef3F5FbBe2431cF04C0",
+      "abi": "/assets/abis/city-core/CityStatus.json"
+    },
+    "CityHistory": {
+      "address": "0x6C83aC3E4C58c493e3116E31cF7e32935497Af3c",
+      "abi": "/assets/abis/city-core/CityHistory.json"
+    },
+    "CityValidation": {
+      "address": "0x77BBd6850C2780055c4C20008145E9E5dEC20332",
+      "abi": "/assets/abis/city-core/CityValidation.json"
+    }
+  },
+  "ecosystem": {
+    "INPI": {
+      "address": "0x232FB12582ac10d5fAd97e9ECa22670e8Ba67d0D",
+      "abi": "/assets/abis/ecosystem/INPI.json"
+    },
+    "ResourceToken": {
+      "address": "0x71E76a6065197acdd1a4d6B736712F80D1Fd3D8b",
+      "abi": "/assets/abis/ecosystem/ResourceToken.json"
+    },
+    "InpinityNFT": {
+      "address": "0x277a0D5864293C78d7387C54B48c35D5E9578Ab1",
+      "abi": "/assets/abis/ecosystem/InpinityNFT.json"
+    },
+    "PartnershipV2": {
+      "address": "0xb18323efE4Cc8c36e10D664E287b4e2c82Fe3ad9",
+      "abi": "/assets/abis/ecosystem/PartnershipV2.json"
+    },
+    "Pitrone": {
+      "address": "0x7240Ec5B3Ba944888E186c74D0f8B4F5F71c9AE8",
+      "abi": "/assets/abis/ecosystem/Pitrone.json"
+    },
+    "FarmingV6": {
+      "address": "0x55Ee68e576E97288802D3b887d79Bf7177EfCb92",
+      "abi": "/assets/abis/ecosystem/FarmingV6.json"
+    },
+    "PiratesV6": {
+      "address": "0xc3A9c40fE8664A0aa9243a8DEe27ADf4E4f9e731",
+      "abi": "/assets/abis/ecosystem/PiratesV6.json"
+    },
+    "MercenaryV4": {
+      "address": "0x484d4ae1C70c938a4819B04d4b08DCBFf9639094",
+      "abi": "/assets/abis/ecosystem/MercenaryV4.json"
+    }
+  },
+  "recommendedBuildingLayer": {
+    "assetContract": "CityBuildingNFTV1",
+    "logicContract": "PersonalBuildings",
+    "placementContract": "CityBuildingPlacement",
+    "registryContract": "CityBuildingFunctionRegistry",
+    "vaultContract": "CityBuildingVault"
+  }
+}

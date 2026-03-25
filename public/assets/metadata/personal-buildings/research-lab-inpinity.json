@@ -1,0 +1,37 @@
+{
+  "name": "Inpinity City Personal Building — Research Lab (Inpinity)",
+  "description": "Tech-Tiers, Discovery-Masken, Blueprint- und später Enchant/Materia-Freigaben. V1-Archetyp-Asset für Inpinity innerhalb von Inpinity City.",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/research-lab-inpinity.png",
+  "external_url": "https://city.inpinity.online/building.html?building=research-lab&faction=inpinity",
+  "animation_url": "https://city.inpinity.online/building.html?building=research-lab&faction=inpinity",
+  "attributes": [
+    {
+      "trait_type": "Collection",
+      "value": "Inpinity City Personal Buildings V1"
+    },
+    {
+      "trait_type": "Building Type",
+      "value": "Research Lab"
+    },
+    {
+      "trait_type": "Faction Variant",
+      "value": "Inpinity"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Tech / Discovery / Unlocks"
+    },
+    {
+      "trait_type": "Transfer Layer",
+      "value": "CityBuildingNFTV1"
+    },
+    {
+      "trait_type": "Logic Layer",
+      "value": "PersonalBuildings"
+    },
+    {
+      "trait_type": "Placement",
+      "value": "Requires completed personal plot"
+    }
+  ]
+}

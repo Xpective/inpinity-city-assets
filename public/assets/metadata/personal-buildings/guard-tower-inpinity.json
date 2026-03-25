@@ -1,0 +1,37 @@
+{
+  "name": "Inpinity City Personal Building — Guard Tower (Inpinity)",
+  "description": "Defense-Kern für Raid-Minderung, Radar-, Shield- und Mercenary-Synergien. V1-Archetyp-Asset für Inpinity innerhalb von Inpinity City.",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/guard-tower-inpinity.png",
+  "external_url": "https://city.inpinity.online/building.html?building=guard-tower&faction=inpinity",
+  "animation_url": "https://city.inpinity.online/building.html?building=guard-tower&faction=inpinity",
+  "attributes": [
+    {
+      "trait_type": "Collection",
+      "value": "Inpinity City Personal Buildings V1"
+    },
+    {
+      "trait_type": "Building Type",
+      "value": "Guard Tower"
+    },
+    {
+      "trait_type": "Faction Variant",
+      "value": "Inpinity"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Defense / Radar / Protection"
+    },
+    {
+      "trait_type": "Transfer Layer",
+      "value": "CityBuildingNFTV1"
+    },
+    {
+      "trait_type": "Logic Layer",
+      "value": "PersonalBuildings"
+    },
+    {
+      "trait_type": "Placement",
+      "value": "Requires completed personal plot"
+    }
+  ]
+}

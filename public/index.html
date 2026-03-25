@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Inpinity City — Personal Buildings</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <span class="badge">City Key → Faction → Residence HTML → NFT Assets / URIs / ABIs</span>
+      <h1>Inpinity City Personal Buildings<br>Repo + Interface Starter</h1>
+      <p class="lead">
+        Diese lokale Repo-Struktur trennt Frontend, Assets, Metadata und ABI-Einbindung sauber. Der Flow spiegelt den City-Ablauf:
+        City Key setzen, Faction wählen, Personal Plot reservieren, Qubiq vollenden und dann das Building-Interface öffnen.
+      </p>
+    </section>
+
+    <section class="grid grid-2">
+      <article class="panel">
+        <h2>Demo-Flow</h2>
+        <div class="step-list">
+          <div class="step"><div><strong>1. City Key</strong><span class="muted">über CityRegistry.setCityKeyToken(tokenId)</span></div><div id="keyStatus" class="status-warn">nicht gesetzt</div></div>
+          <div class="step"><div><strong>2. Faction</strong><span class="muted">über CityRegistry.chooseFaction(...)</span></div><div id="factionStatus" class="status-warn">nicht gewählt</div></div>
+          <div class="step"><div><strong>3. Personal Plot</strong><span class="muted">reserveNextPersonalPlot(slotIndex)</span></div><div class="status-ok">live vorbereitet</div></div>
+          <div class="step"><div><strong>4. Qubiq Completion</strong><span class="muted">CityLand.contributeQubiq(...) / isPlotFullyCompleted(...)</span></div><div class="status-ok">live vorbereitet</div></div>
+          <div class="step"><div><strong>5. Building öffnen</strong><span class="muted">Residence klickt in bildhafte HTML-Ansicht</span></div><div class="status-ok">dieses Repo</div></div>
+        </div>
+        <div class="controls" style="margin-top:18px">
+          <button id="setKeyBtn" class="primary">City Key toggeln</button>
+          <button id="chooseInpinityBtn">Faction = Inpinity</button>
+          <button id="chooseInphinityBtn" class="pink">Faction = Inphinity</button>
+        </div>
+      </article>
+
+      <article class="panel">
+        <h2>URI- und Domain-Plan</h2>
+        <div class="kv">
+          <div class="muted">Frontend App</div><div>https://city.inpinity.online</div>
+          <div class="muted">Assets Bucket</div><div>https://assets.inpinity.online/city/...</div>
+          <div class="muted">NFT Images</div><div>/city/images/buildings/personal/&lt;slug&gt;-&lt;faction&gt;.png</div>
+          <div class="muted">NFT Metadata</div><div>/city/metadata/buildings/personal/&lt;slug&gt;-&lt;faction&gt;.json</div>
+          <div class="muted">Residence Page</div><div>/building.html?building=residence&amp;faction=inpinity</div>
+        </div>
+        <div class="notice" style="margin-top:18px">
+          Empfehlung: bestehendes assets.inpinity.online-Muster für City-Assets weiterverwenden und die Personal-Building-Collection unter /city/buildings/ anhängen.
+        </div>
+      </article>
+    </section>
+
+    <section class="hero" style="padding-top:26px">
+      <h2>Die 7 Personal Buildings</h2>
+      <p class="lead">Die Karten unten nutzen bereits die vorbereiteten NFT-Images und leiten – sobald Key und Faction gesetzt sind – in die HTML-Ansicht des jeweiligen Buildings weiter.</p>
+    </section>
+
+    <section id="buildingCards" class="grid grid-4" style="padding-bottom:28px"></section>
+
+    <section class="panel">
+      <h2>Repo-Inhalt</h2>
+      <div class="grid grid-3">
+        <div><h3>public/assets/images</h3><p class="muted">14 PNGs für die 7 Buildings in Inpinity- und Inphinity-Variante.</p></div>
+        <div><h3>public/assets/metadata</h3><p class="muted">Sample-Metadata für direkte NFT-URI-Verlinkung.</p></div>
+        <div><h3>public/assets/abis</h3><p class="muted">City-Core + Ecosystem ABIs für Frontend-Reads und spätere Wallet-Integration.</p></div>
+      </div>
+    </section>
+
+    <div class="footer">Lokaler Repo-Scaffold für Inpinity City Personal Buildings.</div>
+  </div>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

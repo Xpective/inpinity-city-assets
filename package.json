@@ -1,0 +1,9 @@
+{
+  "name": "inpinity-city-personal-buildings",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Static repo scaffold for Inpinity City Personal Buildings, assets and metadata",
+  "scripts": {
+    "serve": "python3 -m http.server 8787 --directory public"
+  }
+}

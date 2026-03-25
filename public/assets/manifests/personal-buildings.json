@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "residence",
+    "faction": "inpinity",
+    "name": "Residence",
+    "imageLocal": "/assets/images/personal-buildings/residence-inpinity.png",
+    "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/residence-inpinity.png",
+    "metadataLocal": "/assets/metadata/personal-buildings/residence-inpinity.json",
+    "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/residence-inpinity.json",
+    "externalUrl": "https://city.inpinity.online/building.html?building=residence&faction=inpinity"
+  },
+  {
+    "slug": "residence",
+    "faction": "inphinity",
+    "name": "Residence",
+    "imageLocal": "/assets/images/personal-buildings/residence-inphinity.png",
+    "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/residence-inphinity.png",
+    "metadataLocal": "/assets/metadata/personal-buildings/residence-inphinity.json",
+    "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/residence-inphinity.json",
+    "externalUrl": "https://city.inpinity.online/building.html?building=residence&faction=inphinity"
+  },
+  {
+    "slug": "farming-hub",
+    "faction": "inpinity",
+    "name": "Farming Hub",
+    "imageLocal": "/assets/images/personal-buildings/farming-hub-inpinity.png",
+    "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub-inpinity.png",
+    "metadataLocal": "/assets/metadata/personal-buildings/farming-hub-inpinity.json",
+    "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/farming-hub-inpinity.json",
+    "externalUrl": "https://city.inpinity.online/building.html?building=farming-hub&faction=inpinity"
+  },
+  {
+    "slug": "farming-hub",
+    "faction": "inphinity",
+    "name": "Farming Hub",
+    "imageLocal": "/assets/images/personal-buildings/farming-hub-inphinity.png",
+    "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub-inphinity.png",
+    "metadataLocal": "/assets/metadata/personal-buildings/farming-hub-inphinity.json",
+    "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/farming-hub-inphinity.json",
+    "externalUrl": "https://city.inpinity.online/building.html?building=farming-hub&faction=inphinity"
+  },
+  {
+    "slug": "forge",
+    "faction": "inpinity",
+    "name": "Forge",
+    "imageLocal": "/assets/images/personal-buildings/forge-inpinity.png",
+    "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/forge-inpinity.png",
+    "metadataLocal": "/assets/metadata/personal-buildings/forge-inpinity.json",
+    "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/forge-inpinity.json",
+    "externalUrl": "https://city.inpinity.online/building.html?building=forge&faction=inpinity"
+  },
+  {
+    "slug": "forge",
+    "faction": "inphinity",
+    "name": "Forge",
+    "imageLocal": "/assets/images/personal-buildings/forge-inphinity.png",
+    "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/forge-inphinity.png",
+    "metadataLocal": "/assets/metadata/personal-buildings/forge-inphinity.json",
+    "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/forge-inphinity.json",
+    "externalUrl": "https://city.inpinity.online/building.html?building=forge&faction=inphinity"
+  },
+  {
+    "slug": "warehouse",
+    "faction": "inpinity",
+    "name": "Warehouse",
+    "imageLocal": "/assets/images/personal-buildings/warehouse-inpinity.png",
+    "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/warehouse-inpinity.png",
+    "metadataLocal": "/assets/metadata/personal-buildings/warehouse-inpinity.json",
+    "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/warehouse-inpinity.json",
+    "externalUrl": "https://city.inpinity.online/building.html?building=warehouse&faction=inpinity"
+  },
+  {
+    "slug": "warehouse",
+    "faction": "inphinity",
+    "name": "Warehouse",
+    "imageLocal": "/assets/images/personal-buildings/warehouse-inphinity.png",
+    "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/warehouse-inphinity.png",
+    "metadataLocal": "/assets/metadata/personal-buildings/warehouse-inphinity.json",
+    "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/warehouse-inphinity.json",
+    "externalUrl": "https://city.inpinity.online/building.html?building=warehouse&faction=inphinity"
+  },
+  {
+    "slug": "market-stall",
+    "faction": "inpinity",
+    "name": "Market Stall",
+    "imageLocal": "/assets/images/personal-buildings/market-stall-inpinity.png",
+    "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/market-stall-inpinity.png",
+    "metadataLocal": "/assets/metadata/personal-buildings/market-stall-inpinity.json",
+    "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/market-stall-inpinity.json",
+    "externalUrl": "https://city.inpinity.online/building.html?building=market-stall&faction=inpinity"
+  },
+  {
+    "slug": "market-stall",
+    "faction": "inphinity",
+    "name": "Market Stall",
+    "imageLocal": "/assets/images/personal-buildings/market-stall-inphinity.png",
+    "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/market-stall-inphinity.png",
+    "metadataLocal": "/assets/metadata/personal-buildings/market-stall-inphinity.json",
+    "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/market-stall-inphinity.json",
+    "externalUrl": "https://city.inpinity.online/building.html?building=market-stall&faction=inphinity"
+  },
+  {
+    "slug": "guard-tower",
+    "faction": "inpinity",
+    "name": "Guard Tower",
+    "imageLocal": "/assets/images/personal-buildings/guard-tower-inpinity.png",
+    "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/guard-tower-inpinity.png",
+    "metadataLocal": "/assets/metadata/personal-buildings/guard-tower-inpinity.json",
+    "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/guard-tower-inpinity.json",
+    "externalUrl": "https://city.inpinity.online/building.html?building=guard-tower&faction=inpinity"
+  },
+  {
+    "slug": "guard-tower",
+    "faction": "inphinity",
+    "name": "Guard Tower",
+    "imageLocal": "/assets/images/personal-buildings/guard-tower-inphinity.png",
+    "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/guard-tower-inphinity.png",
+    "metadataLocal": "/assets/metadata/personal-buildings/guard-tower-inphinity.json",
+    "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/guard-tower-inphinity.json",
+    "externalUrl": "https://city.inpinity.online/building.html?building=guard-tower&faction=inphinity"
+  },
+  {
+    "slug": "research-lab",
+    "faction": "inpinity",
+    "name": "Research Lab",
+    "imageLocal": "/assets/images/personal-buildings/research-lab-inpinity.png",
+    "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/research-lab-inpinity.png",
+    "metadataLocal": "/assets/metadata/personal-buildings/research-lab-inpinity.json",
+    "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/research-lab-inpinity.json",
+    "externalUrl": "https://city.inpinity.online/building.html?building=research-lab&faction=inpinity"
+  },
+  {
+    "slug": "research-lab",
+    "faction": "inphinity",
+    "name": "Research Lab",
+    "imageLocal": "/assets/images/personal-buildings/research-lab-inphinity.png",
+    "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/research-lab-inphinity.png",
+    "metadataLocal": "/assets/metadata/personal-buildings/research-lab-inphinity.json",
+    "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/research-lab-inphinity.json",
+    "externalUrl": "https://city.inpinity.online/building.html?building=research-lab&faction=inphinity"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "name": "Inpinity City Personal Building — Residence (Inphinity)",
+  "description": "Starter- und Prestigegebäude für Showcase, Trophy- und Legacy-Präsentation. V1-Archetyp-Asset für Inphinity innerhalb von Inpinity City.",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/residence-inphinity.png",
+  "external_url": "https://city.inpinity.online/building.html?building=residence&faction=inphinity",
+  "animation_url": "https://city.inpinity.online/building.html?building=residence&faction=inphinity",
+  "attributes": [
+    {
+      "trait_type": "Collection",
+      "value": "Inpinity City Personal Buildings V1"
+    },
+    {
+      "trait_type": "Building Type",
+      "value": "Residence"
+    },
+    {
+      "trait_type": "Faction Variant",
+      "value": "Inphinity"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Prestige / Identity / Display"
+    },
+    {
+      "trait_type": "Transfer Layer",
+      "value": "CityBuildingNFTV1"
+    },
+    {
+      "trait_type": "Logic Layer",
+      "value": "PersonalBuildings"
+    },
+    {
+      "trait_type": "Placement",
+      "value": "Requires completed personal plot"
+    }
+  ]
+}
