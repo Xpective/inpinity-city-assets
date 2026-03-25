@@ -1,0 +1,68 @@
+{
+  "name": "Residence — Inphinity Level 6",
+  "description": "Residence ist das soziale und visuelle Kerngebäude. Es wächst von einem kompakten Prestige-Home zu einer sammlerwürdigen Legacy-Residence mit Gallery- und Trophy-Potential. Variant: Gallery Estate.",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/residence/inphinity/level-6.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=residence&faction=inphinity&level=6",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Residence"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "residence"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inphinity"
+    },
+    {
+      "trait_type": "Level",
+      "display_type": "number",
+      "value": 6
+    },
+    {
+      "trait_type": "Level Title",
+      "value": "Gallery Estate"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Prestige / Identity / Showcase / Legacy"
+    },
+    {
+      "trait_type": "Primary Synergy",
+      "value": "Market Stall"
+    },
+    {
+      "trait_type": "Visual Stage",
+      "value": "L6 Gallery Estate"
+    }
+  ],
+  "properties": {
+    "category": "personal-building",
+    "buildingSlug": "residence",
+    "faction": "inphinity",
+    "level": 6,
+    "imageLocal": "/assets/images/personal-buildings/residence/inphinity/level-6.png",
+    "metadataLocal": "/assets/metadata/personal-buildings/residence/inphinity/level-6.json",
+    "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/residence/inphinity/level-6.png",
+    "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/residence/inphinity/level-6.json",
+    "specializations": [
+      "Gallery House",
+      "Trophy Hall"
+    ],
+    "hookTargets": [
+      "InpinityNFT",
+      "INPI"
+    ],
+    "synergies": [
+      "Market Stall",
+      "Research Lab",
+      "Forge"
+    ]
+  }
+}

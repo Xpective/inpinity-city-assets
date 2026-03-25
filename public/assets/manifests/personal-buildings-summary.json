@@ -1,0 +1,419 @@
+[
+  {
+    "slug": "residence",
+    "name": "Residence",
+    "order": 1,
+    "role": "Prestige / Identity / Showcase / Legacy",
+    "tagline": "Persönliches Prestigehaus mit Showcase-, Archiv- und Legacy-Fokus.",
+    "description": "Residence ist das soziale und visuelle Kerngebäude. Es wächst von einem kompakten Prestige-Home zu einer sammlerwürdigen Legacy-Residence mit Gallery- und Trophy-Potential.",
+    "placementRules": [
+      "nur auf eigenem, vollständig ausgebautem Personal Plot",
+      "Fraktion und Plot-Kontext aus City-Layer lesen",
+      "vor Transfer sollte das Gebäude ungeplaced sein"
+    ],
+    "synergies": [
+      "Market Stall",
+      "Research Lab",
+      "Forge"
+    ],
+    "levelHighlights": {
+      "1": "Starter residence with one central dome, one display alcove and warm prestige lighting.",
+      "2": "Expanded social residence with more display area and clearer visitor flow.",
+      "3": "First trophy wall and showcase expansion; specialization becomes visually plausible.",
+      "4": "Archive-oriented residence with stronger ceremonial framing and improved provenance feel.",
+      "5": "Legacy residence with gallery-house direction and richer prestige silhouette.",
+      "6": "High-status cultural residence with trophy-hall cues and wider showcase wings.",
+      "7": "Master legacy residence with founder-tier presentation, gallery/trophy readiness and elite skyline presence."
+    },
+    "hookTargets": [
+      {
+        "label": "InpinityNFT",
+        "address": "0x277a0D5864293C78d7387C54B48c35D5E9578Ab1",
+        "abiLocal": "/assets/abis/InpinityNFT.json",
+        "kind": "live-abi",
+        "notes": "Current NFT layer"
+      },
+      {
+        "label": "INPI",
+        "address": "0x232FB12582ac10d5fAd97e9ECa22670e8Ba67d0D",
+        "abiLocal": "/assets/abis/INPI.json",
+        "kind": "live-abi",
+        "notes": "Live INPI token"
+      }
+    ],
+    "futureContracts": [
+      "CityBuildingNFTV1.sol",
+      "PersonalBuildings.sol",
+      "CityBuildingFunctionRegistry.sol"
+    ],
+    "specializations": [
+      "Gallery House",
+      "Trophy Hall"
+    ]
+  },
+  {
+    "slug": "farming-hub",
+    "name": "Farming Hub",
+    "order": 2,
+    "role": "Production / Yield / Claim Support / Routing",
+    "tagline": "Zeitbasierter Produktionsbooster mit Hydro-, Greenhouse- und Chain-Farm-Sprache.",
+    "description": "Farming Hub verstärkt Farming-Fenster, Boostdauer und Claim-Komfort. Die Reihe entwickelt sich von einer kompakten Hydro-Einheit zu einem hochentwickelten Produktionsknoten mit klarer Chain- und Logistics-Anmutung.",
+    "placementRules": [
+      "nur auf eigenem, vollständig ausgebautem Personal Plot",
+      "Farm-bezogene Boni sollen nur als Boost- und Routing-Layer dienen",
+      "Qubiq-Completion ist Voraussetzung für aktives Placement"
+    ],
+    "synergies": [
+      "Warehouse",
+      "Market Stall",
+      "Research Lab"
+    ],
+    "levelHighlights": {
+      "1": "Starter hydro module with compact growth beds and low-tier energy routing.",
+      "2": "Expanded greenhouse with more crop volume and stronger production framing.",
+      "3": "Operational farming hub with timed boost language and first specialization cues.",
+      "4": "Multi-bay agricultural node with stronger routing and cross-plot readability.",
+      "5": "Claim-buffer oriented production center with broader greenhouse span.",
+      "6": "High-output chain farming complex with visible logistics and energy links.",
+      "7": "Peak farming hub with district-scale production feel and elite chain-boost presence."
+    },
+    "hookTargets": [
+      {
+        "label": "FarmingV6",
+        "address": null,
+        "abiLocal": "/assets/abis/FarmingV6.json",
+        "kind": "live-abi",
+        "notes": "Farming boost and stealable amount reads"
+      },
+      {
+        "label": "ResourceToken",
+        "address": "0x71E76a6065197acdd1a4d6B736712F80D1Fd3D8b",
+        "abiLocal": "/assets/abis/ResourceToken.json",
+        "kind": "live-abi",
+        "notes": "10-slot primitive resource layer"
+      },
+      {
+        "label": "INPI",
+        "address": "0x232FB12582ac10d5fAd97e9ECa22670e8Ba67d0D",
+        "abiLocal": "/assets/abis/INPI.json",
+        "kind": "live-abi",
+        "notes": "Live INPI token"
+      }
+    ],
+    "futureContracts": [
+      "PersonalBuildings.sol",
+      "CityBuildingFunctionRegistry.sol"
+    ],
+    "specializations": [
+      "Logistics Hub",
+      "Harvest Node",
+      "Chain Farm"
+    ]
+  },
+  {
+    "slug": "forge",
+    "name": "Forge",
+    "order": 3,
+    "role": "Crafting / Recipes / Creator Branch / Output Quality",
+    "tagline": "Crafting-Gebäude mit steigender Produktionsmacht, Qualität und Creator-Branch.",
+    "description": "Forge startet als kompakte Werkstatt und endet als Master Forge mit klaren Recipe-, Quality- und Provenance-Signalen. Es ist das Herz der späteren Creator- und High-tier-Crafting-Pfade.",
+    "placementRules": [
+      "nur auf eigenem, vollständig ausgebautem Personal Plot",
+      "Crafting- und Recipe-Zugänge laufen über Logic-/Registry-Layer",
+      "Ressourcenverbrauch und Gebühren getrennt von NFT-Asset-Layer halten"
+    ],
+    "synergies": [
+      "Research Lab",
+      "Warehouse",
+      "Market Stall",
+      "Residence"
+    ],
+    "levelHighlights": {
+      "1": "Baseline craft access with compact forge hearth and starter workshop tools.",
+      "2": "Expanded forge with stronger material staging and cost-efficiency cues.",
+      "3": "Specialization-ready forge with multi-station layout and advanced heat core.",
+      "4": "Rare-component capable forge with broader industrial silhouette.",
+      "5": "High-tier crafting forge with output-quality language and creator energy.",
+      "6": "Prestige forge with refined material flow, quality control and strong visual authority.",
+      "7": "Master forge with elite creator branch readiness, rare recipe aura and signature skyline impact."
+    },
+    "hookTargets": [
+      {
+        "label": "ResourceToken",
+        "address": "0x71E76a6065197acdd1a4d6B736712F80D1Fd3D8b",
+        "abiLocal": "/assets/abis/ResourceToken.json",
+        "kind": "live-abi",
+        "notes": "10-slot primitive resource layer"
+      },
+      {
+        "label": "InpinityNFT",
+        "address": "0x277a0D5864293C78d7387C54B48c35D5E9578Ab1",
+        "abiLocal": "/assets/abis/InpinityNFT.json",
+        "kind": "live-abi",
+        "notes": "Current NFT layer"
+      },
+      {
+        "label": "INPI",
+        "address": "0x232FB12582ac10d5fAd97e9ECa22670e8Ba67d0D",
+        "abiLocal": "/assets/abis/INPI.json",
+        "kind": "live-abi",
+        "notes": "Live INPI token"
+      }
+    ],
+    "futureContracts": [
+      "PersonalBuildings.sol",
+      "CityBuildingFunctionRegistry.sol"
+    ],
+    "specializations": [
+      "Weapon Forge",
+      "Relic Forge",
+      "Component Forge",
+      "Master Forge"
+    ]
+  },
+  {
+    "slug": "warehouse",
+    "name": "Warehouse",
+    "order": 4,
+    "role": "Storage / Vault / Logistics / Protection",
+    "tagline": "Persönliches Lager mit Vault-, Trade- und Fortress-Entwicklung.",
+    "description": "Warehouse bildet den Storage- und Vault-Kern. Die Reihe wächst von einem kompakten Lager zu einem Master Warehouse mit Defense-, Vault- und Trade-Signalen und bereitet Decay, Repair und Raid-Readiness vor.",
+    "placementRules": [
+      "nur auf eigenem, vollständig ausgebautem Personal Plot",
+      "Vault-, Decay- und Repair-Daten im separaten Vault-Layer halten",
+      "Unplace vor Transfer, wenn Storage-Logik aktiv wird"
+    ],
+    "synergies": [
+      "Farming Hub",
+      "Market Stall",
+      "Forge",
+      "Guard Tower"
+    ],
+    "levelHighlights": {
+      "1": "Compact warehouse with starter storage bays and basic resource handling.",
+      "2": "Expanded storage depot with larger loading geometry and clearer throughput paths.",
+      "3": "Vault-ready warehouse with first protected storage cues and stronger core mass.",
+      "4": "Logistics warehouse with marked routing lanes and reinforced structural rhythm.",
+      "5": "Protected trade storage with visible reserve tiers and higher security feel.",
+      "6": "Advanced vault warehouse with stronger safety language and operational scale.",
+      "7": "Master warehouse with fortress-vault prestige, elite logistics identity and high-tier protection presence."
+    },
+    "hookTargets": [
+      {
+        "label": "ResourceToken",
+        "address": "0x71E76a6065197acdd1a4d6B736712F80D1Fd3D8b",
+        "abiLocal": "/assets/abis/ResourceToken.json",
+        "kind": "live-abi",
+        "notes": "10-slot primitive resource layer"
+      },
+      {
+        "label": "PiratesV6",
+        "address": null,
+        "abiLocal": "/assets/abis/PiratesV6.json",
+        "kind": "live-abi",
+        "notes": "Pirates, attack and raid interface"
+      },
+      {
+        "label": "MercenaryV4",
+        "address": null,
+        "abiLocal": "/assets/abis/MercenaryV4.json",
+        "kind": "live-abi",
+        "notes": "Mercenary hiring and defense hooks"
+      }
+    ],
+    "futureContracts": [
+      "CityBuildingVault.sol",
+      "PersonalBuildings.sol",
+      "CityBuildingFunctionRegistry.sol"
+    ],
+    "specializations": [
+      "Merchant Vault",
+      "Deep Storage",
+      "Shielded Storage"
+    ]
+  },
+  {
+    "slug": "market-stall",
+    "name": "Market Stall",
+    "order": 5,
+    "role": "Trade / Listing Rights / Visibility / Premium Commerce",
+    "tagline": "Handelsgebäude mit Listing-Caps, Premium-Sichtbarkeit und Provenance-Flair.",
+    "description": "Market Stall beginnt als kompakter Händlerkiosk und entwickelt sich zu einem elitären persönlichen Handelsplatz. Die Reihe macht Listing-Power, Visibility und Premium-Commerce visuell lesbar.",
+    "placementRules": [
+      "nur auf eigenem, vollständig ausgebautem Personal Plot",
+      "steuert Rechte und Vorteile, nicht den gesamten Marktplatz",
+      "fortgeschrittene Marktlogik später an Community Marketplace andocken"
+    ],
+    "synergies": [
+      "Residence",
+      "Warehouse",
+      "Forge",
+      "Guard Tower",
+      "Research Lab"
+    ],
+    "levelHighlights": {
+      "1": "Starter trade kiosk with small canopy, basic counter and local commerce vibe.",
+      "2": "Expanded market stall with more listings feel and broader merchant frontage.",
+      "3": "Premium-ready stall with category growth and improved presentation space.",
+      "4": "Merchant arcade with larger awnings, layered commerce signage language and stronger flow.",
+      "5": "Prestige trade hub with rare-category aura and more curated showcase zones.",
+      "6": "Collector-facing market architecture with provenance-premium atmosphere.",
+      "7": "Elite personal market with merchant-house gravitas, premium visibility and endgame trade presence."
+    },
+    "hookTargets": [
+      {
+        "label": "PartnershipV2",
+        "address": "0xb18323efE4Cc8c36e10D664E287b4e2c82Fe3ad9",
+        "abiLocal": "/assets/abis/PartnershipV2.json",
+        "kind": "live-abi",
+        "notes": "Partnership and token block integrations"
+      },
+      {
+        "label": "InpinityNFT",
+        "address": "0x277a0D5864293C78d7387C54B48c35D5E9578Ab1",
+        "abiLocal": "/assets/abis/InpinityNFT.json",
+        "kind": "live-abi",
+        "notes": "Current NFT layer"
+      },
+      {
+        "label": "INPI",
+        "address": "0x232FB12582ac10d5fAd97e9ECa22670e8Ba67d0D",
+        "abiLocal": "/assets/abis/INPI.json",
+        "kind": "live-abi",
+        "notes": "Live INPI token"
+      }
+    ],
+    "futureContracts": [
+      "PersonalBuildings.sol",
+      "CityBuildingFunctionRegistry.sol"
+    ],
+    "specializations": [
+      "Merchant House",
+      "Trade Depot"
+    ]
+  },
+  {
+    "slug": "guard-tower",
+    "name": "Guard Tower",
+    "order": 6,
+    "role": "Defense / Radar / Shield / Raid Mitigation",
+    "tagline": "Verteidigungsturm mit steigender Bastion-, Radar- und Shield-Sprache.",
+    "description": "Guard Tower ist der Defense-Kern der Personal Buildings. Vom kompakten Wachpunkt wächst er zur taktischen Bastion mit Radar-, Shield- und Mercenary-Readiness.",
+    "placementRules": [
+      "nur auf eigenem, vollständig ausgebautem Personal Plot",
+      "Defense, radar und raid mitigation über Read-/Hook-Layer ableiten",
+      "starke Synergie mit Warehouse und späteren Rebels-/Mercenary-Systemen"
+    ],
+    "synergies": [
+      "Warehouse",
+      "Research Lab",
+      "Market Stall",
+      "Residence"
+    ],
+    "levelHighlights": {
+      "1": "Compact watch tower with basic defense hardware and vigilant stance.",
+      "2": "Stronger defensive tower with reinforced shell and clearer guard identity.",
+      "3": "Radar-capable tower with tactical sensors and first specialization cues.",
+      "4": "Bastion-style guard tower with heavier fortification and stronger defense posture.",
+      "5": "Radar-focused tower with extended sensor arrays and tactical authority.",
+      "6": "Shield-oriented defense structure with layered protection and mitigation cues.",
+      "7": "Elite guard bastion with high-end radar, shield readiness and fortress-grade silhouette."
+    },
+    "hookTargets": [
+      {
+        "label": "PiratesV6",
+        "address": null,
+        "abiLocal": "/assets/abis/PiratesV6.json",
+        "kind": "live-abi",
+        "notes": "Pirates, attack and raid interface"
+      },
+      {
+        "label": "MercenaryV4",
+        "address": null,
+        "abiLocal": "/assets/abis/MercenaryV4.json",
+        "kind": "live-abi",
+        "notes": "Mercenary hiring and defense hooks"
+      },
+      {
+        "label": "Pitrone",
+        "address": null,
+        "abiLocal": "/assets/abis/Pitrone.json",
+        "kind": "live-abi",
+        "notes": "PIT/Pitrone token layer"
+      }
+    ],
+    "futureContracts": [
+      "PersonalBuildings.sol",
+      "CityBuildingFunctionRegistry.sol",
+      "ICityRebelsHooks.sol"
+    ],
+    "specializations": [
+      "Radar Tower",
+      "Defense Tower",
+      "Mercenary Tower",
+      "Shield Tower"
+    ]
+  },
+  {
+    "slug": "research-lab",
+    "name": "Research Lab",
+    "order": 7,
+    "role": "Tech / Discovery / Blueprints / Enchant Prep",
+    "tagline": "Tech- und Discovery-Kern mit Blueprint-, Enchant- und Materia-Vorbereitung.",
+    "description": "Research Lab bildet die Wissens- und Freischaltachse. Es wächst von einem kleinen Discovery-Lab zu einem Master Lab mit starker Blueprint-, Discovery- und Forge-Synergie.",
+    "placementRules": [
+      "nur auf eigenem, vollständig ausgebautem Personal Plot",
+      "Discovery, Tech-Tier und Blueprint-Reads über Registry ableiten",
+      "späterer Enchant-/Materia-Ausbau sauber an Forge koppeln"
+    ],
+    "synergies": [
+      "Forge",
+      "Guard Tower",
+      "Farming Hub",
+      "Market Stall",
+      "Residence"
+    ],
+    "levelHighlights": {
+      "1": "Starter research cell with baseline instruments and discovery atmosphere.",
+      "2": "Expanded lab with stronger library feel and faster-analysis visual cues.",
+      "3": "Blueprint-ready research node with combo-unlock language and deeper instrumentation.",
+      "4": "Applied research complex with advanced discovery chambers and wider analytical layout.",
+      "5": "Enchant- and materia-prep lab with stronger arcane-tech crossover.",
+      "6": "High-end knowledge nexus with rare unlock feel and sharper tech authority.",
+      "7": "Master lab with elite discovery status, blueprint dominance and full forge-synergy presence."
+    },
+    "hookTargets": [
+      {
+        "label": "InpinityNFT",
+        "address": "0x277a0D5864293C78d7387C54B48c35D5E9578Ab1",
+        "abiLocal": "/assets/abis/InpinityNFT.json",
+        "kind": "live-abi",
+        "notes": "Current NFT layer"
+      },
+      {
+        "label": "ResourceToken",
+        "address": "0x71E76a6065197acdd1a4d6B736712F80D1Fd3D8b",
+        "abiLocal": "/assets/abis/ResourceToken.json",
+        "kind": "live-abi",
+        "notes": "10-slot primitive resource layer"
+      },
+      {
+        "label": "INPI",
+        "address": "0x232FB12582ac10d5fAd97e9ECa22670e8Ba67d0D",
+        "abiLocal": "/assets/abis/INPI.json",
+        "kind": "live-abi",
+        "notes": "Live INPI token"
+      }
+    ],
+    "futureContracts": [
+      "PersonalBuildings.sol",
+      "CityBuildingFunctionRegistry.sol"
+    ],
+    "specializations": [
+      "Blueprint Lab",
+      "Materia Lab",
+      "Enchantment Lab",
+      "Master Lab"
+    ]
+  }
+]

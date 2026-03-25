@@ -1,0 +1,47 @@
+# Repo-Struktur – Personal Buildings Master Layer
+
+```text
+public/
+  index.html
+  gallery.html
+  building-level.html
+  assets/
+    css/
+      styles.css
+    js/
+      shared.js
+      gallery.js
+      building-level.js
+    manifests/
+      personal-buildings-master.json
+      personal-buildings-grouped.json
+      personal-buildings-summary.json
+      contracts-index.json
+    abis/
+      ResourceToken.json
+      PartnershipV2.json
+      INPI.json
+      InpinityNFT.json
+      Pitrone.json
+      FarmingV6.json
+      PiratesV6.json
+      MercenaryV4.json
+    metadata/
+      personal-buildings/
+        residence/
+        farming-hub/
+        forge/
+        warehouse/
+        market-stall/
+        guard-tower/
+        research-lab/
+    images/
+      personal-buildings/
+        residence/
+        farming-hub/
+        forge/
+        warehouse/
+        market-stall/
+        guard-tower/
+        research-lab/
+```

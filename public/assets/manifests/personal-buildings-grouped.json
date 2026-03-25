@@ -1,0 +1,1689 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-03-25T20:39:35Z",
+  "counts": {
+    "entries": 98,
+    "buildings": 7,
+    "factions": 2,
+    "levelsPerBuilding": 7
+  },
+  "bySlug": {
+    "residence": {
+      "summary": {
+        "name": "Residence",
+        "order": 1,
+        "role": "Prestige / Identity / Showcase / Legacy",
+        "tagline": "Persönliches Prestigehaus mit Showcase-, Archiv- und Legacy-Fokus.",
+        "description": "Residence ist das soziale und visuelle Kerngebäude. Es wächst von einem kompakten Prestige-Home zu einer sammlerwürdigen Legacy-Residence mit Gallery- und Trophy-Potential.",
+        "placementRules": [
+          "nur auf eigenem, vollständig ausgebautem Personal Plot",
+          "Fraktion und Plot-Kontext aus City-Layer lesen",
+          "vor Transfer sollte das Gebäude ungeplaced sein"
+        ],
+        "synergies": [
+          "Market Stall",
+          "Research Lab",
+          "Forge"
+        ]
+      },
+      "hookTargets": [
+        {
+          "label": "InpinityNFT",
+          "address": "0x277a0D5864293C78d7387C54B48c35D5E9578Ab1",
+          "abiLocal": "/assets/abis/InpinityNFT.json",
+          "kind": "live-abi",
+          "notes": "Current NFT layer"
+        },
+        {
+          "label": "INPI",
+          "address": "0x232FB12582ac10d5fAd97e9ECa22670e8Ba67d0D",
+          "abiLocal": "/assets/abis/INPI.json",
+          "kind": "live-abi",
+          "notes": "Live INPI token"
+        }
+      ],
+      "futureContracts": [
+        "CityBuildingNFTV1.sol",
+        "PersonalBuildings.sol",
+        "CityBuildingFunctionRegistry.sol"
+      ],
+      "specializations": [
+        "Gallery House",
+        "Trophy Hall"
+      ],
+      "levels": {
+        "inpinity": {
+          "1": {
+            "slug": "residence",
+            "name": "Residence",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 1,
+            "title": "Starter Prestige Home",
+            "imageLocal": "/assets/images/personal-buildings/residence/inpinity/level-1.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/residence/inpinity/level-1.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/residence/inpinity/level-1.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/residence/inpinity/level-1.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=residence&faction=inpinity&level=1"
+          },
+          "2": {
+            "slug": "residence",
+            "name": "Residence",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 2,
+            "title": "Social Residence",
+            "imageLocal": "/assets/images/personal-buildings/residence/inpinity/level-2.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/residence/inpinity/level-2.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/residence/inpinity/level-2.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/residence/inpinity/level-2.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=residence&faction=inpinity&level=2"
+          },
+          "3": {
+            "slug": "residence",
+            "name": "Residence",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 3,
+            "title": "Gallery-Ready Residence",
+            "imageLocal": "/assets/images/personal-buildings/residence/inpinity/level-3.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/residence/inpinity/level-3.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/residence/inpinity/level-3.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/residence/inpinity/level-3.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=residence&faction=inpinity&level=3"
+          },
+          "4": {
+            "slug": "residence",
+            "name": "Residence",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 4,
+            "title": "Curated Residence",
+            "imageLocal": "/assets/images/personal-buildings/residence/inpinity/level-4.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/residence/inpinity/level-4.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/residence/inpinity/level-4.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/residence/inpinity/level-4.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=residence&faction=inpinity&level=4"
+          },
+          "5": {
+            "slug": "residence",
+            "name": "Residence",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 5,
+            "title": "Legacy Residence",
+            "imageLocal": "/assets/images/personal-buildings/residence/inpinity/level-5.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/residence/inpinity/level-5.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/residence/inpinity/level-5.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/residence/inpinity/level-5.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=residence&faction=inpinity&level=5"
+          },
+          "6": {
+            "slug": "residence",
+            "name": "Residence",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 6,
+            "title": "Gallery Estate",
+            "imageLocal": "/assets/images/personal-buildings/residence/inpinity/level-6.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/residence/inpinity/level-6.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/residence/inpinity/level-6.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/residence/inpinity/level-6.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=residence&faction=inpinity&level=6"
+          },
+          "7": {
+            "slug": "residence",
+            "name": "Residence",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 7,
+            "title": "Founder Residence Palace",
+            "imageLocal": "/assets/images/personal-buildings/residence/inpinity/level-7.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/residence/inpinity/level-7.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/residence/inpinity/level-7.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/residence/inpinity/level-7.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=residence&faction=inpinity&level=7"
+          }
+        },
+        "inphinity": {
+          "1": {
+            "slug": "residence",
+            "name": "Residence",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 1,
+            "title": "Starter Prestige Home",
+            "imageLocal": "/assets/images/personal-buildings/residence/inphinity/level-1.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/residence/inphinity/level-1.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/residence/inphinity/level-1.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/residence/inphinity/level-1.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=residence&faction=inphinity&level=1"
+          },
+          "2": {
+            "slug": "residence",
+            "name": "Residence",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 2,
+            "title": "Social Residence",
+            "imageLocal": "/assets/images/personal-buildings/residence/inphinity/level-2.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/residence/inphinity/level-2.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/residence/inphinity/level-2.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/residence/inphinity/level-2.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=residence&faction=inphinity&level=2"
+          },
+          "3": {
+            "slug": "residence",
+            "name": "Residence",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 3,
+            "title": "Gallery-Ready Residence",
+            "imageLocal": "/assets/images/personal-buildings/residence/inphinity/level-3.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/residence/inphinity/level-3.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/residence/inphinity/level-3.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/residence/inphinity/level-3.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=residence&faction=inphinity&level=3"
+          },
+          "4": {
+            "slug": "residence",
+            "name": "Residence",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 4,
+            "title": "Curated Residence",
+            "imageLocal": "/assets/images/personal-buildings/residence/inphinity/level-4.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/residence/inphinity/level-4.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/residence/inphinity/level-4.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/residence/inphinity/level-4.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=residence&faction=inphinity&level=4"
+          },
+          "5": {
+            "slug": "residence",
+            "name": "Residence",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 5,
+            "title": "Legacy Residence",
+            "imageLocal": "/assets/images/personal-buildings/residence/inphinity/level-5.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/residence/inphinity/level-5.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/residence/inphinity/level-5.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/residence/inphinity/level-5.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=residence&faction=inphinity&level=5"
+          },
+          "6": {
+            "slug": "residence",
+            "name": "Residence",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 6,
+            "title": "Gallery Estate",
+            "imageLocal": "/assets/images/personal-buildings/residence/inphinity/level-6.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/residence/inphinity/level-6.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/residence/inphinity/level-6.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/residence/inphinity/level-6.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=residence&faction=inphinity&level=6"
+          },
+          "7": {
+            "slug": "residence",
+            "name": "Residence",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 7,
+            "title": "Founder Residence Palace",
+            "imageLocal": "/assets/images/personal-buildings/residence/inphinity/level-7.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/residence/inphinity/level-7.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/residence/inphinity/level-7.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/residence/inphinity/level-7.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=residence&faction=inphinity&level=7"
+          }
+        }
+      }
+    },
+    "farming-hub": {
+      "summary": {
+        "name": "Farming Hub",
+        "order": 2,
+        "role": "Production / Yield / Claim Support / Routing",
+        "tagline": "Zeitbasierter Produktionsbooster mit Hydro-, Greenhouse- und Chain-Farm-Sprache.",
+        "description": "Farming Hub verstärkt Farming-Fenster, Boostdauer und Claim-Komfort. Die Reihe entwickelt sich von einer kompakten Hydro-Einheit zu einem hochentwickelten Produktionsknoten mit klarer Chain- und Logistics-Anmutung.",
+        "placementRules": [
+          "nur auf eigenem, vollständig ausgebautem Personal Plot",
+          "Farm-bezogene Boni sollen nur als Boost- und Routing-Layer dienen",
+          "Qubiq-Completion ist Voraussetzung für aktives Placement"
+        ],
+        "synergies": [
+          "Warehouse",
+          "Market Stall",
+          "Research Lab"
+        ]
+      },
+      "hookTargets": [
+        {
+          "label": "FarmingV6",
+          "address": null,
+          "abiLocal": "/assets/abis/FarmingV6.json",
+          "kind": "live-abi",
+          "notes": "Farming boost and stealable amount reads"
+        },
+        {
+          "label": "ResourceToken",
+          "address": "0x71E76a6065197acdd1a4d6B736712F80D1Fd3D8b",
+          "abiLocal": "/assets/abis/ResourceToken.json",
+          "kind": "live-abi",
+          "notes": "10-slot primitive resource layer"
+        },
+        {
+          "label": "INPI",
+          "address": "0x232FB12582ac10d5fAd97e9ECa22670e8Ba67d0D",
+          "abiLocal": "/assets/abis/INPI.json",
+          "kind": "live-abi",
+          "notes": "Live INPI token"
+        }
+      ],
+      "futureContracts": [
+        "PersonalBuildings.sol",
+        "CityBuildingFunctionRegistry.sol"
+      ],
+      "specializations": [
+        "Logistics Hub",
+        "Harvest Node",
+        "Chain Farm"
+      ],
+      "levels": {
+        "inpinity": {
+          "1": {
+            "slug": "farming-hub",
+            "name": "Farming Hub",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 1,
+            "title": "Starter Hydro Module",
+            "imageLocal": "/assets/images/personal-buildings/farming-hub/inpinity/level-1.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub/inpinity/level-1.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/farming-hub/inpinity/level-1.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/farming-hub/inpinity/level-1.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inpinity&level=1"
+          },
+          "2": {
+            "slug": "farming-hub",
+            "name": "Farming Hub",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 2,
+            "title": "Expanded Greenhouse",
+            "imageLocal": "/assets/images/personal-buildings/farming-hub/inpinity/level-2.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub/inpinity/level-2.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/farming-hub/inpinity/level-2.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/farming-hub/inpinity/level-2.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inpinity&level=2"
+          },
+          "3": {
+            "slug": "farming-hub",
+            "name": "Farming Hub",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 3,
+            "title": "Specialization-Ready Agro Hub",
+            "imageLocal": "/assets/images/personal-buildings/farming-hub/inpinity/level-3.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub/inpinity/level-3.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/farming-hub/inpinity/level-3.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/farming-hub/inpinity/level-3.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inpinity&level=3"
+          },
+          "4": {
+            "slug": "farming-hub",
+            "name": "Farming Hub",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 4,
+            "title": "Mid-Tier Farm Grid",
+            "imageLocal": "/assets/images/personal-buildings/farming-hub/inpinity/level-4.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub/inpinity/level-4.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/farming-hub/inpinity/level-4.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/farming-hub/inpinity/level-4.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inpinity&level=4"
+          },
+          "5": {
+            "slug": "farming-hub",
+            "name": "Farming Hub",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 5,
+            "title": "Yield Coordination Hub",
+            "imageLocal": "/assets/images/personal-buildings/farming-hub/inpinity/level-5.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub/inpinity/level-5.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/farming-hub/inpinity/level-5.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/farming-hub/inpinity/level-5.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inpinity&level=5"
+          },
+          "6": {
+            "slug": "farming-hub",
+            "name": "Farming Hub",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 6,
+            "title": "Advanced Chain Farm",
+            "imageLocal": "/assets/images/personal-buildings/farming-hub/inpinity/level-6.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub/inpinity/level-6.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/farming-hub/inpinity/level-6.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/farming-hub/inpinity/level-6.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inpinity&level=6"
+          },
+          "7": {
+            "slug": "farming-hub",
+            "name": "Farming Hub",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 7,
+            "title": "Master Farming Hub",
+            "imageLocal": "/assets/images/personal-buildings/farming-hub/inpinity/level-7.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub/inpinity/level-7.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/farming-hub/inpinity/level-7.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/farming-hub/inpinity/level-7.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inpinity&level=7"
+          }
+        },
+        "inphinity": {
+          "1": {
+            "slug": "farming-hub",
+            "name": "Farming Hub",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 1,
+            "title": "Starter Hydro Module",
+            "imageLocal": "/assets/images/personal-buildings/farming-hub/inphinity/level-1.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub/inphinity/level-1.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/farming-hub/inphinity/level-1.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/farming-hub/inphinity/level-1.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inphinity&level=1"
+          },
+          "2": {
+            "slug": "farming-hub",
+            "name": "Farming Hub",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 2,
+            "title": "Expanded Greenhouse",
+            "imageLocal": "/assets/images/personal-buildings/farming-hub/inphinity/level-2.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub/inphinity/level-2.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/farming-hub/inphinity/level-2.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/farming-hub/inphinity/level-2.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inphinity&level=2"
+          },
+          "3": {
+            "slug": "farming-hub",
+            "name": "Farming Hub",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 3,
+            "title": "Specialization-Ready Agro Hub",
+            "imageLocal": "/assets/images/personal-buildings/farming-hub/inphinity/level-3.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub/inphinity/level-3.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/farming-hub/inphinity/level-3.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/farming-hub/inphinity/level-3.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inphinity&level=3"
+          },
+          "4": {
+            "slug": "farming-hub",
+            "name": "Farming Hub",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 4,
+            "title": "Mid-Tier Farm Grid",
+            "imageLocal": "/assets/images/personal-buildings/farming-hub/inphinity/level-4.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub/inphinity/level-4.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/farming-hub/inphinity/level-4.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/farming-hub/inphinity/level-4.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inphinity&level=4"
+          },
+          "5": {
+            "slug": "farming-hub",
+            "name": "Farming Hub",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 5,
+            "title": "Yield Coordination Hub",
+            "imageLocal": "/assets/images/personal-buildings/farming-hub/inphinity/level-5.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub/inphinity/level-5.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/farming-hub/inphinity/level-5.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/farming-hub/inphinity/level-5.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inphinity&level=5"
+          },
+          "6": {
+            "slug": "farming-hub",
+            "name": "Farming Hub",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 6,
+            "title": "Advanced Chain Farm",
+            "imageLocal": "/assets/images/personal-buildings/farming-hub/inphinity/level-6.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub/inphinity/level-6.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/farming-hub/inphinity/level-6.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/farming-hub/inphinity/level-6.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inphinity&level=6"
+          },
+          "7": {
+            "slug": "farming-hub",
+            "name": "Farming Hub",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 7,
+            "title": "Master Farming Hub",
+            "imageLocal": "/assets/images/personal-buildings/farming-hub/inphinity/level-7.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub/inphinity/level-7.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/farming-hub/inphinity/level-7.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/farming-hub/inphinity/level-7.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inphinity&level=7"
+          }
+        }
+      }
+    },
+    "forge": {
+      "summary": {
+        "name": "Forge",
+        "order": 3,
+        "role": "Crafting / Recipes / Creator Branch / Output Quality",
+        "tagline": "Crafting-Gebäude mit steigender Produktionsmacht, Qualität und Creator-Branch.",
+        "description": "Forge startet als kompakte Werkstatt und endet als Master Forge mit klaren Recipe-, Quality- und Provenance-Signalen. Es ist das Herz der späteren Creator- und High-tier-Crafting-Pfade.",
+        "placementRules": [
+          "nur auf eigenem, vollständig ausgebautem Personal Plot",
+          "Crafting- und Recipe-Zugänge laufen über Logic-/Registry-Layer",
+          "Ressourcenverbrauch und Gebühren getrennt von NFT-Asset-Layer halten"
+        ],
+        "synergies": [
+          "Research Lab",
+          "Warehouse",
+          "Market Stall",
+          "Residence"
+        ]
+      },
+      "hookTargets": [
+        {
+          "label": "ResourceToken",
+          "address": "0x71E76a6065197acdd1a4d6B736712F80D1Fd3D8b",
+          "abiLocal": "/assets/abis/ResourceToken.json",
+          "kind": "live-abi",
+          "notes": "10-slot primitive resource layer"
+        },
+        {
+          "label": "InpinityNFT",
+          "address": "0x277a0D5864293C78d7387C54B48c35D5E9578Ab1",
+          "abiLocal": "/assets/abis/InpinityNFT.json",
+          "kind": "live-abi",
+          "notes": "Current NFT layer"
+        },
+        {
+          "label": "INPI",
+          "address": "0x232FB12582ac10d5fAd97e9ECa22670e8Ba67d0D",
+          "abiLocal": "/assets/abis/INPI.json",
+          "kind": "live-abi",
+          "notes": "Live INPI token"
+        }
+      ],
+      "futureContracts": [
+        "PersonalBuildings.sol",
+        "CityBuildingFunctionRegistry.sol"
+      ],
+      "specializations": [
+        "Weapon Forge",
+        "Relic Forge",
+        "Component Forge",
+        "Master Forge"
+      ],
+      "levels": {
+        "inpinity": {
+          "1": {
+            "slug": "forge",
+            "name": "Forge",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 1,
+            "title": "Starter Workshop Forge",
+            "imageLocal": "/assets/images/personal-buildings/forge/inpinity/level-1.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/forge/inpinity/level-1.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/forge/inpinity/level-1.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/forge/inpinity/level-1.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=forge&faction=inpinity&level=1"
+          },
+          "2": {
+            "slug": "forge",
+            "name": "Forge",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 2,
+            "title": "Improved Forge Hall",
+            "imageLocal": "/assets/images/personal-buildings/forge/inpinity/level-2.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/forge/inpinity/level-2.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/forge/inpinity/level-2.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/forge/inpinity/level-2.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=forge&faction=inpinity&level=2"
+          },
+          "3": {
+            "slug": "forge",
+            "name": "Forge",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 3,
+            "title": "Specialization Forge",
+            "imageLocal": "/assets/images/personal-buildings/forge/inpinity/level-3.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/forge/inpinity/level-3.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/forge/inpinity/level-3.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/forge/inpinity/level-3.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=forge&faction=inpinity&level=3"
+          },
+          "4": {
+            "slug": "forge",
+            "name": "Forge",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 4,
+            "title": "Refined Production Forge",
+            "imageLocal": "/assets/images/personal-buildings/forge/inpinity/level-4.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/forge/inpinity/level-4.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/forge/inpinity/level-4.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/forge/inpinity/level-4.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=forge&faction=inpinity&level=4"
+          },
+          "5": {
+            "slug": "forge",
+            "name": "Forge",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 5,
+            "title": "Advanced Creator Forge",
+            "imageLocal": "/assets/images/personal-buildings/forge/inpinity/level-5.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/forge/inpinity/level-5.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/forge/inpinity/level-5.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/forge/inpinity/level-5.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=forge&faction=inpinity&level=5"
+          },
+          "6": {
+            "slug": "forge",
+            "name": "Forge",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 6,
+            "title": "High-Tier Provenance Forge",
+            "imageLocal": "/assets/images/personal-buildings/forge/inpinity/level-6.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/forge/inpinity/level-6.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/forge/inpinity/level-6.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/forge/inpinity/level-6.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=forge&faction=inpinity&level=6"
+          },
+          "7": {
+            "slug": "forge",
+            "name": "Forge",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 7,
+            "title": "Master Forge",
+            "imageLocal": "/assets/images/personal-buildings/forge/inpinity/level-7.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/forge/inpinity/level-7.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/forge/inpinity/level-7.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/forge/inpinity/level-7.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=forge&faction=inpinity&level=7"
+          }
+        },
+        "inphinity": {
+          "1": {
+            "slug": "forge",
+            "name": "Forge",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 1,
+            "title": "Starter Workshop Forge",
+            "imageLocal": "/assets/images/personal-buildings/forge/inphinity/level-1.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/forge/inphinity/level-1.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/forge/inphinity/level-1.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/forge/inphinity/level-1.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=forge&faction=inphinity&level=1"
+          },
+          "2": {
+            "slug": "forge",
+            "name": "Forge",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 2,
+            "title": "Improved Forge Hall",
+            "imageLocal": "/assets/images/personal-buildings/forge/inphinity/level-2.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/forge/inphinity/level-2.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/forge/inphinity/level-2.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/forge/inphinity/level-2.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=forge&faction=inphinity&level=2"
+          },
+          "3": {
+            "slug": "forge",
+            "name": "Forge",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 3,
+            "title": "Specialization Forge",
+            "imageLocal": "/assets/images/personal-buildings/forge/inphinity/level-3.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/forge/inphinity/level-3.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/forge/inphinity/level-3.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/forge/inphinity/level-3.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=forge&faction=inphinity&level=3"
+          },
+          "4": {
+            "slug": "forge",
+            "name": "Forge",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 4,
+            "title": "Refined Production Forge",
+            "imageLocal": "/assets/images/personal-buildings/forge/inphinity/level-4.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/forge/inphinity/level-4.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/forge/inphinity/level-4.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/forge/inphinity/level-4.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=forge&faction=inphinity&level=4"
+          },
+          "5": {
+            "slug": "forge",
+            "name": "Forge",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 5,
+            "title": "Advanced Creator Forge",
+            "imageLocal": "/assets/images/personal-buildings/forge/inphinity/level-5.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/forge/inphinity/level-5.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/forge/inphinity/level-5.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/forge/inphinity/level-5.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=forge&faction=inphinity&level=5"
+          },
+          "6": {
+            "slug": "forge",
+            "name": "Forge",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 6,
+            "title": "High-Tier Provenance Forge",
+            "imageLocal": "/assets/images/personal-buildings/forge/inphinity/level-6.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/forge/inphinity/level-6.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/forge/inphinity/level-6.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/forge/inphinity/level-6.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=forge&faction=inphinity&level=6"
+          },
+          "7": {
+            "slug": "forge",
+            "name": "Forge",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 7,
+            "title": "Master Forge",
+            "imageLocal": "/assets/images/personal-buildings/forge/inphinity/level-7.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/forge/inphinity/level-7.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/forge/inphinity/level-7.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/forge/inphinity/level-7.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=forge&faction=inphinity&level=7"
+          }
+        }
+      }
+    },
+    "warehouse": {
+      "summary": {
+        "name": "Warehouse",
+        "order": 4,
+        "role": "Storage / Vault / Logistics / Protection",
+        "tagline": "Persönliches Lager mit Vault-, Trade- und Fortress-Entwicklung.",
+        "description": "Warehouse bildet den Storage- und Vault-Kern. Die Reihe wächst von einem kompakten Lager zu einem Master Warehouse mit Defense-, Vault- und Trade-Signalen und bereitet Decay, Repair und Raid-Readiness vor.",
+        "placementRules": [
+          "nur auf eigenem, vollständig ausgebautem Personal Plot",
+          "Vault-, Decay- und Repair-Daten im separaten Vault-Layer halten",
+          "Unplace vor Transfer, wenn Storage-Logik aktiv wird"
+        ],
+        "synergies": [
+          "Farming Hub",
+          "Market Stall",
+          "Forge",
+          "Guard Tower"
+        ]
+      },
+      "hookTargets": [
+        {
+          "label": "ResourceToken",
+          "address": "0x71E76a6065197acdd1a4d6B736712F80D1Fd3D8b",
+          "abiLocal": "/assets/abis/ResourceToken.json",
+          "kind": "live-abi",
+          "notes": "10-slot primitive resource layer"
+        },
+        {
+          "label": "PiratesV6",
+          "address": null,
+          "abiLocal": "/assets/abis/PiratesV6.json",
+          "kind": "live-abi",
+          "notes": "Pirates, attack and raid interface"
+        },
+        {
+          "label": "MercenaryV4",
+          "address": null,
+          "abiLocal": "/assets/abis/MercenaryV4.json",
+          "kind": "live-abi",
+          "notes": "Mercenary hiring and defense hooks"
+        }
+      ],
+      "futureContracts": [
+        "CityBuildingVault.sol",
+        "PersonalBuildings.sol",
+        "CityBuildingFunctionRegistry.sol"
+      ],
+      "specializations": [
+        "Merchant Vault",
+        "Deep Storage",
+        "Shielded Storage"
+      ],
+      "levels": {
+        "inpinity": {
+          "1": {
+            "slug": "warehouse",
+            "name": "Warehouse",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 1,
+            "title": "Starter Storage Depot",
+            "imageLocal": "/assets/images/personal-buildings/warehouse/inpinity/level-1.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inpinity/level-1.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/warehouse/inpinity/level-1.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/warehouse/inpinity/level-1.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inpinity&level=1"
+          },
+          "2": {
+            "slug": "warehouse",
+            "name": "Warehouse",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 2,
+            "title": "Expanded Storage",
+            "imageLocal": "/assets/images/personal-buildings/warehouse/inpinity/level-2.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inpinity/level-2.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/warehouse/inpinity/level-2.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/warehouse/inpinity/level-2.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inpinity&level=2"
+          },
+          "3": {
+            "slug": "warehouse",
+            "name": "Warehouse",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 3,
+            "title": "Vault-Ready Warehouse",
+            "imageLocal": "/assets/images/personal-buildings/warehouse/inpinity/level-3.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inpinity/level-3.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/warehouse/inpinity/level-3.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/warehouse/inpinity/level-3.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inpinity&level=3"
+          },
+          "4": {
+            "slug": "warehouse",
+            "name": "Warehouse",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 4,
+            "title": "Mid-Tier Logistics Warehouse",
+            "imageLocal": "/assets/images/personal-buildings/warehouse/inpinity/level-4.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inpinity/level-4.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/warehouse/inpinity/level-4.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/warehouse/inpinity/level-4.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inpinity&level=4"
+          },
+          "5": {
+            "slug": "warehouse",
+            "name": "Warehouse",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 5,
+            "title": "Protected Trade Warehouse",
+            "imageLocal": "/assets/images/personal-buildings/warehouse/inpinity/level-5.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inpinity/level-5.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/warehouse/inpinity/level-5.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/warehouse/inpinity/level-5.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inpinity&level=5"
+          },
+          "6": {
+            "slug": "warehouse",
+            "name": "Warehouse",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 6,
+            "title": "Advanced Vault Complex",
+            "imageLocal": "/assets/images/personal-buildings/warehouse/inpinity/level-6.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inpinity/level-6.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/warehouse/inpinity/level-6.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/warehouse/inpinity/level-6.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inpinity&level=6"
+          },
+          "7": {
+            "slug": "warehouse",
+            "name": "Warehouse",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 7,
+            "title": "Master Warehouse",
+            "imageLocal": "/assets/images/personal-buildings/warehouse/inpinity/level-7.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inpinity/level-7.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/warehouse/inpinity/level-7.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/warehouse/inpinity/level-7.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inpinity&level=7"
+          }
+        },
+        "inphinity": {
+          "1": {
+            "slug": "warehouse",
+            "name": "Warehouse",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 1,
+            "title": "Starter Storage Depot",
+            "imageLocal": "/assets/images/personal-buildings/warehouse/inphinity/level-1.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inphinity/level-1.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/warehouse/inphinity/level-1.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/warehouse/inphinity/level-1.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inphinity&level=1"
+          },
+          "2": {
+            "slug": "warehouse",
+            "name": "Warehouse",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 2,
+            "title": "Expanded Storage",
+            "imageLocal": "/assets/images/personal-buildings/warehouse/inphinity/level-2.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inphinity/level-2.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/warehouse/inphinity/level-2.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/warehouse/inphinity/level-2.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inphinity&level=2"
+          },
+          "3": {
+            "slug": "warehouse",
+            "name": "Warehouse",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 3,
+            "title": "Vault-Ready Warehouse",
+            "imageLocal": "/assets/images/personal-buildings/warehouse/inphinity/level-3.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inphinity/level-3.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/warehouse/inphinity/level-3.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/warehouse/inphinity/level-3.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inphinity&level=3"
+          },
+          "4": {
+            "slug": "warehouse",
+            "name": "Warehouse",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 4,
+            "title": "Mid-Tier Logistics Warehouse",
+            "imageLocal": "/assets/images/personal-buildings/warehouse/inphinity/level-4.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inphinity/level-4.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/warehouse/inphinity/level-4.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/warehouse/inphinity/level-4.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inphinity&level=4"
+          },
+          "5": {
+            "slug": "warehouse",
+            "name": "Warehouse",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 5,
+            "title": "Protected Trade Warehouse",
+            "imageLocal": "/assets/images/personal-buildings/warehouse/inphinity/level-5.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inphinity/level-5.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/warehouse/inphinity/level-5.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/warehouse/inphinity/level-5.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inphinity&level=5"
+          },
+          "6": {
+            "slug": "warehouse",
+            "name": "Warehouse",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 6,
+            "title": "Advanced Vault Complex",
+            "imageLocal": "/assets/images/personal-buildings/warehouse/inphinity/level-6.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inphinity/level-6.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/warehouse/inphinity/level-6.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/warehouse/inphinity/level-6.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inphinity&level=6"
+          },
+          "7": {
+            "slug": "warehouse",
+            "name": "Warehouse",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 7,
+            "title": "Master Warehouse",
+            "imageLocal": "/assets/images/personal-buildings/warehouse/inphinity/level-7.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inphinity/level-7.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/warehouse/inphinity/level-7.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/warehouse/inphinity/level-7.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inphinity&level=7"
+          }
+        }
+      }
+    },
+    "market-stall": {
+      "summary": {
+        "name": "Market Stall",
+        "order": 5,
+        "role": "Trade / Listing Rights / Visibility / Premium Commerce",
+        "tagline": "Handelsgebäude mit Listing-Caps, Premium-Sichtbarkeit und Provenance-Flair.",
+        "description": "Market Stall beginnt als kompakter Händlerkiosk und entwickelt sich zu einem elitären persönlichen Handelsplatz. Die Reihe macht Listing-Power, Visibility und Premium-Commerce visuell lesbar.",
+        "placementRules": [
+          "nur auf eigenem, vollständig ausgebautem Personal Plot",
+          "steuert Rechte und Vorteile, nicht den gesamten Marktplatz",
+          "fortgeschrittene Marktlogik später an Community Marketplace andocken"
+        ],
+        "synergies": [
+          "Residence",
+          "Warehouse",
+          "Forge",
+          "Guard Tower",
+          "Research Lab"
+        ]
+      },
+      "hookTargets": [
+        {
+          "label": "PartnershipV2",
+          "address": "0xb18323efE4Cc8c36e10D664E287b4e2c82Fe3ad9",
+          "abiLocal": "/assets/abis/PartnershipV2.json",
+          "kind": "live-abi",
+          "notes": "Partnership and token block integrations"
+        },
+        {
+          "label": "InpinityNFT",
+          "address": "0x277a0D5864293C78d7387C54B48c35D5E9578Ab1",
+          "abiLocal": "/assets/abis/InpinityNFT.json",
+          "kind": "live-abi",
+          "notes": "Current NFT layer"
+        },
+        {
+          "label": "INPI",
+          "address": "0x232FB12582ac10d5fAd97e9ECa22670e8Ba67d0D",
+          "abiLocal": "/assets/abis/INPI.json",
+          "kind": "live-abi",
+          "notes": "Live INPI token"
+        }
+      ],
+      "futureContracts": [
+        "PersonalBuildings.sol",
+        "CityBuildingFunctionRegistry.sol"
+      ],
+      "specializations": [
+        "Merchant House",
+        "Trade Depot"
+      ],
+      "levels": {
+        "inpinity": {
+          "1": {
+            "slug": "market-stall",
+            "name": "Market Stall",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 1,
+            "title": "Starter Vendor Stall",
+            "imageLocal": "/assets/images/personal-buildings/market-stall/inpinity/level-1.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inpinity/level-1.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/market-stall/inpinity/level-1.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/market-stall/inpinity/level-1.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inpinity&level=1"
+          },
+          "2": {
+            "slug": "market-stall",
+            "name": "Market Stall",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 2,
+            "title": "Expanded Trading Booth",
+            "imageLocal": "/assets/images/personal-buildings/market-stall/inpinity/level-2.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inpinity/level-2.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/market-stall/inpinity/level-2.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/market-stall/inpinity/level-2.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inpinity&level=2"
+          },
+          "3": {
+            "slug": "market-stall",
+            "name": "Market Stall",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 3,
+            "title": "Specialization Market Stall",
+            "imageLocal": "/assets/images/personal-buildings/market-stall/inpinity/level-3.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inpinity/level-3.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/market-stall/inpinity/level-3.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/market-stall/inpinity/level-3.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inpinity&level=3"
+          },
+          "4": {
+            "slug": "market-stall",
+            "name": "Market Stall",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 4,
+            "title": "Trade Depot Front",
+            "imageLocal": "/assets/images/personal-buildings/market-stall/inpinity/level-4.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inpinity/level-4.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/market-stall/inpinity/level-4.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/market-stall/inpinity/level-4.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inpinity&level=4"
+          },
+          "5": {
+            "slug": "market-stall",
+            "name": "Market Stall",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 5,
+            "title": "Commercial Node",
+            "imageLocal": "/assets/images/personal-buildings/market-stall/inpinity/level-5.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inpinity/level-5.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/market-stall/inpinity/level-5.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/market-stall/inpinity/level-5.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inpinity&level=5"
+          },
+          "6": {
+            "slug": "market-stall",
+            "name": "Market Stall",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 6,
+            "title": "Premium Trading Post",
+            "imageLocal": "/assets/images/personal-buildings/market-stall/inpinity/level-6.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inpinity/level-6.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/market-stall/inpinity/level-6.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/market-stall/inpinity/level-6.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inpinity&level=6"
+          },
+          "7": {
+            "slug": "market-stall",
+            "name": "Market Stall",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 7,
+            "title": "Master Market Stall",
+            "imageLocal": "/assets/images/personal-buildings/market-stall/inpinity/level-7.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inpinity/level-7.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/market-stall/inpinity/level-7.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/market-stall/inpinity/level-7.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inpinity&level=7"
+          }
+        },
+        "inphinity": {
+          "1": {
+            "slug": "market-stall",
+            "name": "Market Stall",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 1,
+            "title": "Starter Vendor Stall",
+            "imageLocal": "/assets/images/personal-buildings/market-stall/inphinity/level-1.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inphinity/level-1.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/market-stall/inphinity/level-1.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/market-stall/inphinity/level-1.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inphinity&level=1"
+          },
+          "2": {
+            "slug": "market-stall",
+            "name": "Market Stall",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 2,
+            "title": "Expanded Trading Booth",
+            "imageLocal": "/assets/images/personal-buildings/market-stall/inphinity/level-2.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inphinity/level-2.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/market-stall/inphinity/level-2.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/market-stall/inphinity/level-2.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inphinity&level=2"
+          },
+          "3": {
+            "slug": "market-stall",
+            "name": "Market Stall",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 3,
+            "title": "Specialization Market Stall",
+            "imageLocal": "/assets/images/personal-buildings/market-stall/inphinity/level-3.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inphinity/level-3.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/market-stall/inphinity/level-3.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/market-stall/inphinity/level-3.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inphinity&level=3"
+          },
+          "4": {
+            "slug": "market-stall",
+            "name": "Market Stall",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 4,
+            "title": "Trade Depot Front",
+            "imageLocal": "/assets/images/personal-buildings/market-stall/inphinity/level-4.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inphinity/level-4.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/market-stall/inphinity/level-4.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/market-stall/inphinity/level-4.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inphinity&level=4"
+          },
+          "5": {
+            "slug": "market-stall",
+            "name": "Market Stall",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 5,
+            "title": "Commercial Node",
+            "imageLocal": "/assets/images/personal-buildings/market-stall/inphinity/level-5.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inphinity/level-5.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/market-stall/inphinity/level-5.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/market-stall/inphinity/level-5.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inphinity&level=5"
+          },
+          "6": {
+            "slug": "market-stall",
+            "name": "Market Stall",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 6,
+            "title": "Premium Trading Post",
+            "imageLocal": "/assets/images/personal-buildings/market-stall/inphinity/level-6.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inphinity/level-6.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/market-stall/inphinity/level-6.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/market-stall/inphinity/level-6.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inphinity&level=6"
+          },
+          "7": {
+            "slug": "market-stall",
+            "name": "Market Stall",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 7,
+            "title": "Master Market Stall",
+            "imageLocal": "/assets/images/personal-buildings/market-stall/inphinity/level-7.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inphinity/level-7.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/market-stall/inphinity/level-7.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/market-stall/inphinity/level-7.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inphinity&level=7"
+          }
+        }
+      }
+    },
+    "guard-tower": {
+      "summary": {
+        "name": "Guard Tower",
+        "order": 6,
+        "role": "Defense / Radar / Shield / Raid Mitigation",
+        "tagline": "Verteidigungsturm mit steigender Bastion-, Radar- und Shield-Sprache.",
+        "description": "Guard Tower ist der Defense-Kern der Personal Buildings. Vom kompakten Wachpunkt wächst er zur taktischen Bastion mit Radar-, Shield- und Mercenary-Readiness.",
+        "placementRules": [
+          "nur auf eigenem, vollständig ausgebautem Personal Plot",
+          "Defense, radar und raid mitigation über Read-/Hook-Layer ableiten",
+          "starke Synergie mit Warehouse und späteren Rebels-/Mercenary-Systemen"
+        ],
+        "synergies": [
+          "Warehouse",
+          "Research Lab",
+          "Market Stall",
+          "Residence"
+        ]
+      },
+      "hookTargets": [
+        {
+          "label": "PiratesV6",
+          "address": null,
+          "abiLocal": "/assets/abis/PiratesV6.json",
+          "kind": "live-abi",
+          "notes": "Pirates, attack and raid interface"
+        },
+        {
+          "label": "MercenaryV4",
+          "address": null,
+          "abiLocal": "/assets/abis/MercenaryV4.json",
+          "kind": "live-abi",
+          "notes": "Mercenary hiring and defense hooks"
+        },
+        {
+          "label": "Pitrone",
+          "address": null,
+          "abiLocal": "/assets/abis/Pitrone.json",
+          "kind": "live-abi",
+          "notes": "PIT/Pitrone token layer"
+        }
+      ],
+      "futureContracts": [
+        "PersonalBuildings.sol",
+        "CityBuildingFunctionRegistry.sol",
+        "ICityRebelsHooks.sol"
+      ],
+      "specializations": [
+        "Radar Tower",
+        "Defense Tower",
+        "Mercenary Tower",
+        "Shield Tower"
+      ],
+      "levels": {
+        "inpinity": {
+          "1": {
+            "slug": "guard-tower",
+            "name": "Guard Tower",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 1,
+            "title": "Starter Watchtower",
+            "imageLocal": "/assets/images/personal-buildings/guard-tower/inpinity/level-1.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/guard-tower/inpinity/level-1.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/guard-tower/inpinity/level-1.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/guard-tower/inpinity/level-1.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=guard-tower&faction=inpinity&level=1"
+          },
+          "2": {
+            "slug": "guard-tower",
+            "name": "Guard Tower",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 2,
+            "title": "Reinforced Tower",
+            "imageLocal": "/assets/images/personal-buildings/guard-tower/inpinity/level-2.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/guard-tower/inpinity/level-2.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/guard-tower/inpinity/level-2.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/guard-tower/inpinity/level-2.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=guard-tower&faction=inpinity&level=2"
+          },
+          "3": {
+            "slug": "guard-tower",
+            "name": "Guard Tower",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 3,
+            "title": "Protection Tower",
+            "imageLocal": "/assets/images/personal-buildings/guard-tower/inpinity/level-3.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/guard-tower/inpinity/level-3.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/guard-tower/inpinity/level-3.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/guard-tower/inpinity/level-3.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=guard-tower&faction=inpinity&level=3"
+          },
+          "4": {
+            "slug": "guard-tower",
+            "name": "Guard Tower",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 4,
+            "title": "Mitigation Tower",
+            "imageLocal": "/assets/images/personal-buildings/guard-tower/inpinity/level-4.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/guard-tower/inpinity/level-4.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/guard-tower/inpinity/level-4.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/guard-tower/inpinity/level-4.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=guard-tower&faction=inpinity&level=4"
+          },
+          "5": {
+            "slug": "guard-tower",
+            "name": "Guard Tower",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 5,
+            "title": "Radar Guard Post",
+            "imageLocal": "/assets/images/personal-buildings/guard-tower/inpinity/level-5.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/guard-tower/inpinity/level-5.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/guard-tower/inpinity/level-5.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/guard-tower/inpinity/level-5.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=guard-tower&faction=inpinity&level=5"
+          },
+          "6": {
+            "slug": "guard-tower",
+            "name": "Guard Tower",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 6,
+            "title": "Shielded Security Tower",
+            "imageLocal": "/assets/images/personal-buildings/guard-tower/inpinity/level-6.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/guard-tower/inpinity/level-6.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/guard-tower/inpinity/level-6.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/guard-tower/inpinity/level-6.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=guard-tower&faction=inpinity&level=6"
+          },
+          "7": {
+            "slug": "guard-tower",
+            "name": "Guard Tower",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 7,
+            "title": "Master Guard Tower",
+            "imageLocal": "/assets/images/personal-buildings/guard-tower/inpinity/level-7.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/guard-tower/inpinity/level-7.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/guard-tower/inpinity/level-7.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/guard-tower/inpinity/level-7.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=guard-tower&faction=inpinity&level=7"
+          }
+        },
+        "inphinity": {
+          "1": {
+            "slug": "guard-tower",
+            "name": "Guard Tower",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 1,
+            "title": "Starter Watchtower",
+            "imageLocal": "/assets/images/personal-buildings/guard-tower/inphinity/level-1.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/guard-tower/inphinity/level-1.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/guard-tower/inphinity/level-1.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/guard-tower/inphinity/level-1.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=guard-tower&faction=inphinity&level=1"
+          },
+          "2": {
+            "slug": "guard-tower",
+            "name": "Guard Tower",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 2,
+            "title": "Reinforced Tower",
+            "imageLocal": "/assets/images/personal-buildings/guard-tower/inphinity/level-2.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/guard-tower/inphinity/level-2.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/guard-tower/inphinity/level-2.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/guard-tower/inphinity/level-2.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=guard-tower&faction=inphinity&level=2"
+          },
+          "3": {
+            "slug": "guard-tower",
+            "name": "Guard Tower",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 3,
+            "title": "Protection Tower",
+            "imageLocal": "/assets/images/personal-buildings/guard-tower/inphinity/level-3.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/guard-tower/inphinity/level-3.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/guard-tower/inphinity/level-3.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/guard-tower/inphinity/level-3.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=guard-tower&faction=inphinity&level=3"
+          },
+          "4": {
+            "slug": "guard-tower",
+            "name": "Guard Tower",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 4,
+            "title": "Mitigation Tower",
+            "imageLocal": "/assets/images/personal-buildings/guard-tower/inphinity/level-4.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/guard-tower/inphinity/level-4.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/guard-tower/inphinity/level-4.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/guard-tower/inphinity/level-4.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=guard-tower&faction=inphinity&level=4"
+          },
+          "5": {
+            "slug": "guard-tower",
+            "name": "Guard Tower",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 5,
+            "title": "Radar Guard Post",
+            "imageLocal": "/assets/images/personal-buildings/guard-tower/inphinity/level-5.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/guard-tower/inphinity/level-5.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/guard-tower/inphinity/level-5.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/guard-tower/inphinity/level-5.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=guard-tower&faction=inphinity&level=5"
+          },
+          "6": {
+            "slug": "guard-tower",
+            "name": "Guard Tower",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 6,
+            "title": "Shielded Security Tower",
+            "imageLocal": "/assets/images/personal-buildings/guard-tower/inphinity/level-6.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/guard-tower/inphinity/level-6.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/guard-tower/inphinity/level-6.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/guard-tower/inphinity/level-6.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=guard-tower&faction=inphinity&level=6"
+          },
+          "7": {
+            "slug": "guard-tower",
+            "name": "Guard Tower",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 7,
+            "title": "Master Guard Tower",
+            "imageLocal": "/assets/images/personal-buildings/guard-tower/inphinity/level-7.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/guard-tower/inphinity/level-7.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/guard-tower/inphinity/level-7.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/guard-tower/inphinity/level-7.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=guard-tower&faction=inphinity&level=7"
+          }
+        }
+      }
+    },
+    "research-lab": {
+      "summary": {
+        "name": "Research Lab",
+        "order": 7,
+        "role": "Tech / Discovery / Blueprints / Enchant Prep",
+        "tagline": "Tech- und Discovery-Kern mit Blueprint-, Enchant- und Materia-Vorbereitung.",
+        "description": "Research Lab bildet die Wissens- und Freischaltachse. Es wächst von einem kleinen Discovery-Lab zu einem Master Lab mit starker Blueprint-, Discovery- und Forge-Synergie.",
+        "placementRules": [
+          "nur auf eigenem, vollständig ausgebautem Personal Plot",
+          "Discovery, Tech-Tier und Blueprint-Reads über Registry ableiten",
+          "späterer Enchant-/Materia-Ausbau sauber an Forge koppeln"
+        ],
+        "synergies": [
+          "Forge",
+          "Guard Tower",
+          "Farming Hub",
+          "Market Stall",
+          "Residence"
+        ]
+      },
+      "hookTargets": [
+        {
+          "label": "InpinityNFT",
+          "address": "0x277a0D5864293C78d7387C54B48c35D5E9578Ab1",
+          "abiLocal": "/assets/abis/InpinityNFT.json",
+          "kind": "live-abi",
+          "notes": "Current NFT layer"
+        },
+        {
+          "label": "ResourceToken",
+          "address": "0x71E76a6065197acdd1a4d6B736712F80D1Fd3D8b",
+          "abiLocal": "/assets/abis/ResourceToken.json",
+          "kind": "live-abi",
+          "notes": "10-slot primitive resource layer"
+        },
+        {
+          "label": "INPI",
+          "address": "0x232FB12582ac10d5fAd97e9ECa22670e8Ba67d0D",
+          "abiLocal": "/assets/abis/INPI.json",
+          "kind": "live-abi",
+          "notes": "Live INPI token"
+        }
+      ],
+      "futureContracts": [
+        "PersonalBuildings.sol",
+        "CityBuildingFunctionRegistry.sol"
+      ],
+      "specializations": [
+        "Blueprint Lab",
+        "Materia Lab",
+        "Enchantment Lab",
+        "Master Lab"
+      ],
+      "levels": {
+        "inpinity": {
+          "1": {
+            "slug": "research-lab",
+            "name": "Research Lab",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 1,
+            "title": "Starter Analysis Lab",
+            "imageLocal": "/assets/images/personal-buildings/research-lab/inpinity/level-1.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inpinity/level-1.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/research-lab/inpinity/level-1.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/research-lab/inpinity/level-1.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inpinity&level=1"
+          },
+          "2": {
+            "slug": "research-lab",
+            "name": "Research Lab",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 2,
+            "title": "Expanded Study Lab",
+            "imageLocal": "/assets/images/personal-buildings/research-lab/inpinity/level-2.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inpinity/level-2.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/research-lab/inpinity/level-2.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/research-lab/inpinity/level-2.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inpinity&level=2"
+          },
+          "3": {
+            "slug": "research-lab",
+            "name": "Research Lab",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 3,
+            "title": "Blueprint Research Lab",
+            "imageLocal": "/assets/images/personal-buildings/research-lab/inpinity/level-3.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inpinity/level-3.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/research-lab/inpinity/level-3.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/research-lab/inpinity/level-3.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inpinity&level=3"
+          },
+          "4": {
+            "slug": "research-lab",
+            "name": "Research Lab",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 4,
+            "title": "Discovery Center",
+            "imageLocal": "/assets/images/personal-buildings/research-lab/inpinity/level-4.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inpinity/level-4.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/research-lab/inpinity/level-4.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/research-lab/inpinity/level-4.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inpinity&level=4"
+          },
+          "5": {
+            "slug": "research-lab",
+            "name": "Research Lab",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 5,
+            "title": "Advanced Tech Lab",
+            "imageLocal": "/assets/images/personal-buildings/research-lab/inpinity/level-5.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inpinity/level-5.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/research-lab/inpinity/level-5.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/research-lab/inpinity/level-5.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inpinity&level=5"
+          },
+          "6": {
+            "slug": "research-lab",
+            "name": "Research Lab",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 6,
+            "title": "High-Tier Research Complex",
+            "imageLocal": "/assets/images/personal-buildings/research-lab/inpinity/level-6.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inpinity/level-6.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/research-lab/inpinity/level-6.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/research-lab/inpinity/level-6.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inpinity&level=6"
+          },
+          "7": {
+            "slug": "research-lab",
+            "name": "Research Lab",
+            "faction": "inpinity",
+            "factionLabel": "Inpinity",
+            "level": 7,
+            "title": "Master Research Lab",
+            "imageLocal": "/assets/images/personal-buildings/research-lab/inpinity/level-7.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inpinity/level-7.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/research-lab/inpinity/level-7.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/research-lab/inpinity/level-7.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inpinity&level=7"
+          }
+        },
+        "inphinity": {
+          "1": {
+            "slug": "research-lab",
+            "name": "Research Lab",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 1,
+            "title": "Starter Analysis Lab",
+            "imageLocal": "/assets/images/personal-buildings/research-lab/inphinity/level-1.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inphinity/level-1.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/research-lab/inphinity/level-1.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/research-lab/inphinity/level-1.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inphinity&level=1"
+          },
+          "2": {
+            "slug": "research-lab",
+            "name": "Research Lab",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 2,
+            "title": "Expanded Study Lab",
+            "imageLocal": "/assets/images/personal-buildings/research-lab/inphinity/level-2.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inphinity/level-2.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/research-lab/inphinity/level-2.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/research-lab/inphinity/level-2.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inphinity&level=2"
+          },
+          "3": {
+            "slug": "research-lab",
+            "name": "Research Lab",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 3,
+            "title": "Blueprint Research Lab",
+            "imageLocal": "/assets/images/personal-buildings/research-lab/inphinity/level-3.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inphinity/level-3.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/research-lab/inphinity/level-3.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/research-lab/inphinity/level-3.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inphinity&level=3"
+          },
+          "4": {
+            "slug": "research-lab",
+            "name": "Research Lab",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 4,
+            "title": "Discovery Center",
+            "imageLocal": "/assets/images/personal-buildings/research-lab/inphinity/level-4.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inphinity/level-4.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/research-lab/inphinity/level-4.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/research-lab/inphinity/level-4.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inphinity&level=4"
+          },
+          "5": {
+            "slug": "research-lab",
+            "name": "Research Lab",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 5,
+            "title": "Advanced Tech Lab",
+            "imageLocal": "/assets/images/personal-buildings/research-lab/inphinity/level-5.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inphinity/level-5.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/research-lab/inphinity/level-5.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/research-lab/inphinity/level-5.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inphinity&level=5"
+          },
+          "6": {
+            "slug": "research-lab",
+            "name": "Research Lab",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 6,
+            "title": "High-Tier Research Complex",
+            "imageLocal": "/assets/images/personal-buildings/research-lab/inphinity/level-6.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inphinity/level-6.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/research-lab/inphinity/level-6.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/research-lab/inphinity/level-6.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inphinity&level=6"
+          },
+          "7": {
+            "slug": "research-lab",
+            "name": "Research Lab",
+            "faction": "inphinity",
+            "factionLabel": "Inphinity",
+            "level": 7,
+            "title": "Master Research Lab",
+            "imageLocal": "/assets/images/personal-buildings/research-lab/inphinity/level-7.png",
+            "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inphinity/level-7.png",
+            "metadataLocal": "/assets/metadata/personal-buildings/research-lab/inphinity/level-7.json",
+            "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/research-lab/inphinity/level-7.json",
+            "externalUrl": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inphinity&level=7"
+          }
+        }
+      }
+    }
+  }
+}

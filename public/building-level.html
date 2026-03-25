@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Inpinity City – Building Level Detail</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo">IC</div>
+        <div>
+          <h1 id="pageTitle">Building Level Detail</h1>
+          <p id="pageSubtitle">Detailansicht für ein Personal Building. Das Interface nutzt Manifest-, Summary- und Contract-Daten gleichzeitig.</p>
+        </div>
+      </div>
+      <a class="button" href="index.html">← zurück zur Gallery</a>
+    </header>
+
+    <section class="hero">
+      <div class="kicker">Detail / NFT / Interface / Hooks</div>
+      <div class="hero-asset" style="margin-top:18px">
+        <div class="hero-image" id="heroImageWrap"></div>
+        <div class="panel">
+          <div class="chip-row" style="margin-bottom:14px">
+            <span class="chip" id="factionChip"></span>
+            <span class="chip" id="levelChip"></span>
+            <span class="chip" id="roleChip"></span>
+          </div>
+          <h2 id="buildingName" style="margin-bottom:8px"></h2>
+          <p id="buildingTagline"></p>
+          <div class="notice" style="margin-top:16px" id="levelHighlight"></div>
+          <div class="controls" style="margin-top:16px">
+            <a class="button primary" id="imageLink" target="_blank" rel="noreferrer">Image öffnen</a>
+            <a class="button" id="metadataLink" target="_blank" rel="noreferrer">Metadata öffnen</a>
+            <a class="button" id="externalLink" target="_blank" rel="noreferrer">External URL</a>
+          </div>
+          <div class="level-strip" id="levelStrip" style="margin-top:18px"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid grid-2">
+      <article class="panel">
+        <h2>URI / Routing</h2>
+        <div class="kv">
+          <div class="muted">Image URI</div><div class="addr" id="imageUri"></div>
+          <div class="muted">Metadata URI</div><div class="addr" id="metadataUri"></div>
+          <div class="muted">External URL</div><div class="addr" id="externalUri"></div>
+          <div class="muted">Local Image</div><div class="addr" id="imageLocal"></div>
+          <div class="muted">Local Metadata</div><div class="addr" id="metadataLocal"></div>
+        </div>
+      </article>
+
+      <article class="panel">
+        <h2>Gebäudeprofil</h2>
+        <p id="buildingDescription"></p>
+        <h3 style="margin-top:18px">Synergien</h3>
+        <div class="chip-row" id="synergyRow"></div>
+        <h3 style="margin-top:18px">Spezialisierungen</h3>
+        <div class="chip-row" id="specRow"></div>
+      </article>
+    </section>
+
+    <section class="grid grid-2" style="margin-top:18px">
+      <article class="panel">
+        <h2>Placement-Regeln</h2>
+        <div class="list" id="placementList"></div>
+        <h3 style="margin-top:18px">Future Contracts</h3>
+        <div class="chip-row" id="futureContracts"></div>
+      </article>
+
+      <article class="panel">
+        <h2>Contract Hooks / ABIs</h2>
+        <div class="list" id="hookList"></div>
+      </article>
+    </section>
+
+    <section class="grid grid-2" style="margin-top:18px">
+      <article class="panel">
+        <h2>Sample Metadata</h2>
+        <div class="code-box"><pre id="metadataPreview"></pre></div>
+      </article>
+
+      <article class="panel">
+        <h2>Andere Varianten</h2>
+        <div class="controls">
+          <a class="button" id="switchFaction">Fraktion wechseln</a>
+          <a class="button" id="prevLevel">Voriges Level</a>
+          <a class="button" id="nextLevel">Nächstes Level</a>
+        </div>
+        <div class="chip-row" id="variantChips" style="margin-top:18px"></div>
+      </article>
+    </section>
+  </div>
+
+  <script src="assets/js/shared.js"></script>
+  <script src="assets/js/building-level.js"></script>
+</body>
+</html>
