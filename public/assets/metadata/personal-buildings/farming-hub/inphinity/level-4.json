@@ -1,0 +1,65 @@
+{
+  "name": "Inpinity City Personal Building — Farming Hub L4 (Inphinity)",
+  "description": "Mid-Tier Farm Grid. Personal Farming Hub Asset für Inphinity in Inpinity City. Vernetzte Kuppeln und Technikmodule machen den Farm-Grid-Charakter klar sichtbar.",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub/inphinity/level-4.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inphinity&level=4",
+  "animation_url": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inphinity&level=4",
+  "attributes": [
+    {
+      "trait_type": "Collection",
+      "value": "Inpinity City Personal Buildings V1"
+    },
+    {
+      "trait_type": "Building Type",
+      "value": "Farming Hub"
+    },
+    {
+      "trait_type": "Faction Variant",
+      "value": "Inphinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 4
+    },
+    {
+      "trait_type": "Level Title",
+      "value": "Mid-Tier Farm Grid"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Production / Boost / Claim Support"
+    },
+    {
+      "trait_type": "Visual Direction",
+      "value": "Isometric City-Builder"
+    },
+    {
+      "trait_type": "Transfer Layer",
+      "value": "CityBuildingNFTV1"
+    },
+    {
+      "trait_type": "Logic Layer",
+      "value": "PersonalBuildings"
+    },
+    {
+      "trait_type": "Placement",
+      "value": "Requires completed personal plot"
+    },
+    {
+      "trait_type": "Profile 1",
+      "value": "farming boost bps 800"
+    },
+    {
+      "trait_type": "Profile 2",
+      "value": "boost duration bps 400"
+    },
+    {
+      "trait_type": "Profile 3",
+      "value": "claim window bonus bps 200"
+    },
+    {
+      "trait_type": "Profile 4",
+      "value": "chain bonus bps 0"
+    }
+  ]
+}

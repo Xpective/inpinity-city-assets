@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Warehouse - Inphinity - Level 7",
+  "description": "Warehouse level 7 personal building for the Inphinity faction in Inpinity City. Warehouse level 7, master warehouse bastion with multi-tier vault core, fortified reserve rings, elite protected stock halls, raid-and-repair-ready logistics citadel",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inphinity/level-7.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inphinity&level=7",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Warehouse"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inphinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 7
+    },
+    {
+      "trait_type": "Title",
+      "value": "Master Warehouse"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Storage"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Vault / Defense / Decay / Repair"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 7"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "warehouse"
+    }
+  ]
+}

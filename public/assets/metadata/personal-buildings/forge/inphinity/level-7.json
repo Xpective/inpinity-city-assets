@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Forge - Inphinity - Level 7",
+  "description": "Forge level 7 personal building for the Inphinity faction in Inpinity City. Forge level 7, master forge citadel with grand central foundry, multi-tier furnace complex, relic-smith spire, creator hall, founder-level crafting monument",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/forge/inphinity/level-7.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=forge&faction=inphinity&level=7",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Forge"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inphinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 7
+    },
+    {
+      "trait_type": "Title",
+      "value": "Master Forge Citadel"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Crafting"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Creator / Provenance / Quality"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 7"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "forge"
+    }
+  ]
+}

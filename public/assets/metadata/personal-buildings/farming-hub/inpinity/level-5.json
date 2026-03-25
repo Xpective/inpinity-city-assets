@@ -1,0 +1,65 @@
+{
+  "name": "Inpinity City Personal Building — Farming Hub L5 (Inpinity)",
+  "description": "Yield Coordination Hub. Personal Farming Hub Asset für Inpinity in Inpinity City. Die Anlage wirkt nun wie ein koordinierter Ertrags- und Verteilknoten.",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub/inpinity/level-5.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inpinity&level=5",
+  "animation_url": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inpinity&level=5",
+  "attributes": [
+    {
+      "trait_type": "Collection",
+      "value": "Inpinity City Personal Buildings V1"
+    },
+    {
+      "trait_type": "Building Type",
+      "value": "Farming Hub"
+    },
+    {
+      "trait_type": "Faction Variant",
+      "value": "Inpinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 5
+    },
+    {
+      "trait_type": "Level Title",
+      "value": "Yield Coordination Hub"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Production / Boost / Claim Support"
+    },
+    {
+      "trait_type": "Visual Direction",
+      "value": "Isometric City-Builder"
+    },
+    {
+      "trait_type": "Transfer Layer",
+      "value": "CityBuildingNFTV1"
+    },
+    {
+      "trait_type": "Logic Layer",
+      "value": "PersonalBuildings"
+    },
+    {
+      "trait_type": "Placement",
+      "value": "Requires completed personal plot"
+    },
+    {
+      "trait_type": "Profile 1",
+      "value": "farming boost bps 1000"
+    },
+    {
+      "trait_type": "Profile 2",
+      "value": "boost duration bps 500"
+    },
+    {
+      "trait_type": "Profile 3",
+      "value": "claim window bonus bps 300"
+    },
+    {
+      "trait_type": "Profile 4",
+      "value": "chain bonus bps 150"
+    }
+  ]
+}

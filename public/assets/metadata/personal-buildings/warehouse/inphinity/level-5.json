@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Warehouse - Inphinity - Level 5",
+  "description": "Warehouse level 5 personal building for the Inphinity faction in Inpinity City. Warehouse level 5, protected trade warehouse with shielded vault chamber, merchant reserve annex, visible protected stock routing, first true trade-storage identity",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inphinity/level-5.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inphinity&level=5",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Warehouse"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inphinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 5
+    },
+    {
+      "trait_type": "Title",
+      "value": "Protected Trade Warehouse"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Storage"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Vault / Defense / Decay / Repair"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 5"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "warehouse"
+    }
+  ]
+}

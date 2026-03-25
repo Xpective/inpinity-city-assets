@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Market Stall - Inpinity - Level 1",
+  "description": "Market Stall level 1 personal building for the Inpinity faction in Inpinity City. Market Stall level 1, compact personal trade kiosk with one main canopy, three display counters, one cashier niche, starter listing post",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inpinity/level-1.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inpinity&level=1",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Market Stall"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inpinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 1
+    },
+    {
+      "trait_type": "Title",
+      "value": "Starter Market Kiosk"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Trade"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Listing / Visibility / Fee Reduction / Provenance Premium"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 1"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "market-stall"
+    }
+  ]
+}

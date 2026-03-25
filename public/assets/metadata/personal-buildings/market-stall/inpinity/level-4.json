@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Market Stall - Inpinity - Level 4",
+  "description": "Market Stall level 4 personal building for the Inpinity faction in Inpinity City. Market Stall level 4, structured merchant arcade with wider platform, category display bays, elevated showcase canopy, clear commercial silhouette",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inpinity/level-4.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inpinity&level=4",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Market Stall"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inpinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 4
+    },
+    {
+      "trait_type": "Title",
+      "value": "Merchant Arcade"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Trade"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Listing / Visibility / Fee Reduction / Provenance Premium"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 4"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "market-stall"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Warehouse - Inphinity - Level 1",
+  "description": "Warehouse level 1 personal building for the Inphinity faction in Inpinity City. Warehouse level 1, compact personal storage depot with one secured container bay, one loading ramp, one reserve locker room, starter logistics building",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inphinity/level-1.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inphinity&level=1",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Warehouse"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inphinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 1
+    },
+    {
+      "trait_type": "Title",
+      "value": "Starter Storage Depot"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Storage"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Vault / Defense / Decay / Repair"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 1"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "warehouse"
+    }
+  ]
+}

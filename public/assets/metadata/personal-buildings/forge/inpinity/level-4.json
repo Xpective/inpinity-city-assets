@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Forge - Inpinity - Level 4",
+  "description": "Forge level 4 personal building for the Inpinity faction in Inpinity City. Forge level 4, refined industrial forge with recipe hall entrance, elevated exhaust stack, heated metal press, provenance marking chamber, confident artisan prestige",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/forge/inpinity/level-4.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=forge&faction=inpinity&level=4",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Forge"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inpinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 4
+    },
+    {
+      "trait_type": "Title",
+      "value": "Provenance Forge"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Crafting"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Creator / Provenance / Quality"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 4"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "forge"
+    }
+  ]
+}

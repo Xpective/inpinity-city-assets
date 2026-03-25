@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Forge - Inpinity - Level 2",
+  "description": "Forge level 2 personal building for the Inpinity faction in Inpinity City. Forge level 2, expanded forge workshop with second smelter, reinforced anvil platform, ore crate rack, vented roof, stronger crafting throughput",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/forge/inpinity/level-2.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=forge&faction=inpinity&level=2",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Forge"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inpinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 2
+    },
+    {
+      "trait_type": "Title",
+      "value": "Expanded Workshop"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Crafting"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Creator / Provenance / Quality"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 2"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "forge"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Warehouse - Inpinity - Level 3",
+  "description": "Warehouse level 3 personal building for the Inpinity faction in Inpinity City. Warehouse level 3, vault-ready warehouse with armored storage room, protected reserve chamber, maintenance hatch, first repair-and-decay readiness",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inpinity/level-3.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inpinity&level=3",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Warehouse"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inpinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 3
+    },
+    {
+      "trait_type": "Title",
+      "value": "Vault-Ready Warehouse"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Storage"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Vault / Defense / Decay / Repair"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 3"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "warehouse"
+    }
+  ]
+}

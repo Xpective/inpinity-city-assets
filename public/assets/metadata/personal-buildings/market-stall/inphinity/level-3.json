@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Market Stall - Inphinity - Level 3",
+  "description": "Market Stall level 3 personal building for the Inphinity faction in Inpinity City. Market Stall level 3, trade-ready market stall with modular sales wings, curated item pedestals, first premium showcase lane, specialization-ready merchant post",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inphinity/level-3.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inphinity&level=3",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Market Stall"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inphinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 3
+    },
+    {
+      "trait_type": "Title",
+      "value": "Trade-Ready Stall"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Trade"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Listing / Visibility / Fee Reduction / Provenance Premium"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 3"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "market-stall"
+    }
+  ]
+}

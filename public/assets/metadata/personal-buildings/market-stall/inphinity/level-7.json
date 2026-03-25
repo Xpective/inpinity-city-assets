@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Market Stall - Inphinity - Level 7",
+  "description": "Market Stall level 7 personal building for the Inphinity faction in Inpinity City. Market Stall level 7, master market exchange with multi-tier merchant halls, grand showcase arcade, elite premium stalls, sovereign personal commerce landmark",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inphinity/level-7.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inphinity&level=7",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Market Stall"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inphinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 7
+    },
+    {
+      "trait_type": "Title",
+      "value": "Master Market Exchange"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Trade"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Listing / Visibility / Fee Reduction / Provenance Premium"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 7"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "market-stall"
+    }
+  ]
+}

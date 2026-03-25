@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Warehouse - Inpinity - Level 2",
+  "description": "Warehouse level 2 personal building for the Inpinity faction in Inpinity City. Warehouse level 2, expanded storage building with second container rack, reinforced loading dock, stacked supply crates, improved reserve capacity",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inpinity/level-2.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inpinity&level=2",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Warehouse"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inpinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 2
+    },
+    {
+      "trait_type": "Title",
+      "value": "Expanded Storage"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Storage"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Vault / Defense / Decay / Repair"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 2"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "warehouse"
+    }
+  ]
+}

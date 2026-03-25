@@ -1,0 +1,6 @@
+{
+  "building": "warehouse",
+  "manifestFile": "/assets/manifests/warehouse-levels.json",
+  "mergeCount": 14,
+  "notes": "Merge these 14 entries into personal-buildings-levels.json if you keep a single aggregate manifest. The warehouse slug is already part of the prepared global interface structure."
+}

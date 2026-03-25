@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Warehouse - Inphinity - Level 6",
+  "description": "Warehouse level 6 personal building for the Inphinity faction in Inpinity City. Warehouse level 6, advanced vault complex with dual protected chambers, heavy logistics gantries, emergency lock systems, high-capacity storage fortress",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/warehouse/inphinity/level-6.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=warehouse&faction=inphinity&level=6",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Warehouse"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inphinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 6
+    },
+    {
+      "trait_type": "Title",
+      "value": "Advanced Vault Complex"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Storage"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Vault / Defense / Decay / Repair"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 6"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "warehouse"
+    }
+  ]
+}

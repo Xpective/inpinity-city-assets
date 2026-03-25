@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Market Stall - Inpinity - Level 5",
+  "description": "Market Stall level 5 personal building for the Inpinity faction in Inpinity City. Market Stall level 5, premium trading post with refined merchant gallery, secure cashier core, prestige awnings, stronger visibility and curated listing identity",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/market-stall/inpinity/level-5.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=market-stall&faction=inpinity&level=5",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Market Stall"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inpinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 5
+    },
+    {
+      "trait_type": "Title",
+      "value": "Premium Trading Post"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Trade"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Listing / Visibility / Fee Reduction / Provenance Premium"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 5"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "market-stall"
+    }
+  ]
+}

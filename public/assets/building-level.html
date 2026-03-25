@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Building Level</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div id="app" class="container">
+    <section class="hero">
+      <a class="badge" href="index.html">← zurück zur Übersicht</a>
+      <div class="hero-asset" style="margin-top:18px">
+        <div class="hero-image"><img id="heroImage" src="" alt=""></div>
+        <div class="panel">
+          <small class="kicker">Personal Building / Level Detail View</small>
+          <h1 id="buildingName">Residence</h1>
+          <p class="lead"><span id="buildingRole"></span><br><span id="buildingDesc"></span></p>
+          <div class="chip-row" style="margin:18px 0">
+            <span class="chip" id="factionPill">Inpinity Variant</span>
+            <span class="chip" id="levelPill">Level 1</span>
+            <span class="chip">level-ready asset routing</span>
+          </div>
+          <h2 id="levelTitle" style="margin:8px 0 6px 0">Level 1</h2>
+          <p id="levelSummary"></p>
+          <div class="controls">
+            <a class="button primary" id="assetLink" href="" target="_blank" rel="noreferrer">Image öffnen</a>
+            <a class="button" id="metadataLink" href="" target="_blank" rel="noreferrer">Metadata öffnen</a>
+            <a class="button" id="toggleFaction" href="">Fraktion wechseln</a>
+          </div>
+          <div class="chip-row" id="levelNav" style="margin-top:16px"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid grid-2">
+      <article class="panel">
+        <h2>Routing / NFT URI</h2>
+        <div class="kv">
+          <div class="muted">Image URI</div><div class="addr" id="imageUri"></div>
+          <div class="muted">Metadata URI</div><div class="addr" id="metadataUri"></div>
+          <div class="muted">External URL</div><div class="addr" id="externalUri"></div>
+        </div>
+      </article>
+
+      <article class="panel">
+        <h2>Level-Profil</h2>
+        <div id="levelStats" class="chip-row"></div>
+        <h3 style="margin-top:18px">Visual Cues</h3>
+        <div id="visualCues" class="chip-row"></div>
+        <h3 style="margin-top:18px">Spezialisierung</h3>
+        <div id="specialization" class="chip-row"></div>
+      </article>
+    </section>
+
+    <section class="grid grid-2" style="margin-top:18px">
+      <article class="panel">
+        <h2>Placement Voraussetzungen</h2>
+        <div id="requirements" class="chip-row"></div>
+        <h3 style="margin-top:18px">Synergien</h3>
+        <div id="synergies" class="chip-row"></div>
+      </article>
+      <article class="panel">
+        <h2>Sample Metadata</h2>
+        <div class="code-box"><pre id="metadataPreview"></pre></div>
+      </article>
+    </section>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/level-data.js"></script>
+  <script src="assets/js/personal-buildings-levels-manifest.js"></script>
+  <script src="assets/js/building-level.js"></script>
+</body>
+</html>

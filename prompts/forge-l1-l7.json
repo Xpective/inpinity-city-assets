@@ -1,0 +1,156 @@
+{
+  "building": "forge",
+  "displayName": "Forge",
+  "role": "Crafting, recipe access, creator branch, provenance and output quality.",
+  "negativePrompt": "people, character, crowd, vehicles, battle scene, explosions, smoke covering the building, text, letters, numbers, logo, UI frame, icon border, watermark, blurry image, low detail, muddy colors, multiple disconnected buildings, giant cityscape dominating the scene, cut off edges, cropped roof, distorted perspective, deformed architecture, duplicate parts",
+  "recommendedSettings": {
+    "aspectRatio": "1:1",
+    "camera": "same isometric 3/4 top-down camera for every level of the forge",
+    "seedStrategy": "keep one seed per faction, then evolve from L1 to L7 with image reference when possible",
+    "guidance": "medium to medium-high",
+    "detailStrategy": "increase silhouette weight, furnace complexity, tool density, and prestige gradually from L1 to L7",
+    "backgroundStrategy": "NFT variant may use subtle forge atmosphere; UI variant should stay cleaner and easier to cut out"
+  },
+  "levels": {
+    "1": {
+      "title": "Starter Smithy",
+      "levelDescriptor": "Forge level 1, compact personal smithy with one furnace, one workbench, small anvil bay, short chimney, starter crafting station",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Forge level 1, compact personal smithy with one furnace, one workbench, small anvil bay, short chimney, starter crafting station",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Forge level 1, compact personal smithy with one furnace, one workbench, small anvil bay, short chimney, starter crafting station",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Forge level 1, compact personal smithy with one furnace, one workbench, small anvil bay, short chimney, starter crafting station",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Forge level 1, compact personal smithy with one furnace, one workbench, small anvil bay, short chimney, starter crafting station",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/forge/inpinity/level-1.png",
+          "webp": "public/assets/images/personal-buildings/forge/inpinity/level-1.webp",
+          "metadata": "public/assets/metadata/personal-buildings/forge/inpinity/level-1.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/forge/inphinity/level-1.png",
+          "webp": "public/assets/images/personal-buildings/forge/inphinity/level-1.webp",
+          "metadata": "public/assets/metadata/personal-buildings/forge/inphinity/level-1.json"
+        }
+      }
+    },
+    "2": {
+      "title": "Expanded Workshop",
+      "levelDescriptor": "Forge level 2, expanded forge workshop with second smelter, reinforced anvil platform, ore crate rack, vented roof, stronger crafting throughput",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Forge level 2, expanded forge workshop with second smelter, reinforced anvil platform, ore crate rack, vented roof, stronger crafting throughput",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Forge level 2, expanded forge workshop with second smelter, reinforced anvil platform, ore crate rack, vented roof, stronger crafting throughput",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Forge level 2, expanded forge workshop with second smelter, reinforced anvil platform, ore crate rack, vented roof, stronger crafting throughput",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Forge level 2, expanded forge workshop with second smelter, reinforced anvil platform, ore crate rack, vented roof, stronger crafting throughput",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/forge/inpinity/level-2.png",
+          "webp": "public/assets/images/personal-buildings/forge/inpinity/level-2.webp",
+          "metadata": "public/assets/metadata/personal-buildings/forge/inpinity/level-2.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/forge/inphinity/level-2.png",
+          "webp": "public/assets/images/personal-buildings/forge/inphinity/level-2.webp",
+          "metadata": "public/assets/metadata/personal-buildings/forge/inphinity/level-2.json"
+        }
+      }
+    },
+    "3": {
+      "title": "Specialization-Ready Forge",
+      "levelDescriptor": "Forge level 3, specialization-ready forge with dual smelters, shaping table, side armory annex, glowing slag channel, first true weapons-and-relic workshop identity",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Forge level 3, specialization-ready forge with dual smelters, shaping table, side armory annex, glowing slag channel, first true weapons-and-relic workshop identity",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Forge level 3, specialization-ready forge with dual smelters, shaping table, side armory annex, glowing slag channel, first true weapons-and-relic workshop identity",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Forge level 3, specialization-ready forge with dual smelters, shaping table, side armory annex, glowing slag channel, first true weapons-and-relic workshop identity",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Forge level 3, specialization-ready forge with dual smelters, shaping table, side armory annex, glowing slag channel, first true weapons-and-relic workshop identity",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/forge/inpinity/level-3.png",
+          "webp": "public/assets/images/personal-buildings/forge/inpinity/level-3.webp",
+          "metadata": "public/assets/metadata/personal-buildings/forge/inpinity/level-3.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/forge/inphinity/level-3.png",
+          "webp": "public/assets/images/personal-buildings/forge/inphinity/level-3.webp",
+          "metadata": "public/assets/metadata/personal-buildings/forge/inphinity/level-3.json"
+        }
+      }
+    },
+    "4": {
+      "title": "Provenance Forge",
+      "levelDescriptor": "Forge level 4, refined industrial forge with recipe hall entrance, elevated exhaust stack, heated metal press, provenance marking chamber, confident artisan prestige",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Forge level 4, refined industrial forge with recipe hall entrance, elevated exhaust stack, heated metal press, provenance marking chamber, confident artisan prestige",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Forge level 4, refined industrial forge with recipe hall entrance, elevated exhaust stack, heated metal press, provenance marking chamber, confident artisan prestige",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Forge level 4, refined industrial forge with recipe hall entrance, elevated exhaust stack, heated metal press, provenance marking chamber, confident artisan prestige",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Forge level 4, refined industrial forge with recipe hall entrance, elevated exhaust stack, heated metal press, provenance marking chamber, confident artisan prestige",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/forge/inpinity/level-4.png",
+          "webp": "public/assets/images/personal-buildings/forge/inpinity/level-4.webp",
+          "metadata": "public/assets/metadata/personal-buildings/forge/inpinity/level-4.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/forge/inphinity/level-4.png",
+          "webp": "public/assets/images/personal-buildings/forge/inphinity/level-4.webp",
+          "metadata": "public/assets/metadata/personal-buildings/forge/inphinity/level-4.json"
+        }
+      }
+    },
+    "5": {
+      "title": "Creator Alloy Forge",
+      "levelDescriptor": "Forge level 5, creator alloy forge with triple furnace line, alloy mixing core, quality control station, heavy tooling gantry, advanced crafting network",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Forge level 5, creator alloy forge with triple furnace line, alloy mixing core, quality control station, heavy tooling gantry, advanced crafting network",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Forge level 5, creator alloy forge with triple furnace line, alloy mixing core, quality control station, heavy tooling gantry, advanced crafting network",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Forge level 5, creator alloy forge with triple furnace line, alloy mixing core, quality control station, heavy tooling gantry, advanced crafting network",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Forge level 5, creator alloy forge with triple furnace line, alloy mixing core, quality control station, heavy tooling gantry, advanced crafting network",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/forge/inpinity/level-5.png",
+          "webp": "public/assets/images/personal-buildings/forge/inpinity/level-5.webp",
+          "metadata": "public/assets/metadata/personal-buildings/forge/inpinity/level-5.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/forge/inphinity/level-5.png",
+          "webp": "public/assets/images/personal-buildings/forge/inphinity/level-5.webp",
+          "metadata": "public/assets/metadata/personal-buildings/forge/inphinity/level-5.json"
+        }
+      }
+    },
+    "6": {
+      "title": "High-Tier Production Forge",
+      "levelDescriptor": "Forge level 6, high-tier production forge with modular smithing platforms, suspended mechanical tooling arms, molten ring channel, blueprint-linked workshop, elite output quality",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Forge level 6, high-tier production forge with modular smithing platforms, suspended mechanical tooling arms, molten ring channel, blueprint-linked workshop, elite output quality",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Forge level 6, high-tier production forge with modular smithing platforms, suspended mechanical tooling arms, molten ring channel, blueprint-linked workshop, elite output quality",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Forge level 6, high-tier production forge with modular smithing platforms, suspended mechanical tooling arms, molten ring channel, blueprint-linked workshop, elite output quality",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Forge level 6, high-tier production forge with modular smithing platforms, suspended mechanical tooling arms, molten ring channel, blueprint-linked workshop, elite output quality",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/forge/inpinity/level-6.png",
+          "webp": "public/assets/images/personal-buildings/forge/inpinity/level-6.webp",
+          "metadata": "public/assets/metadata/personal-buildings/forge/inpinity/level-6.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/forge/inphinity/level-6.png",
+          "webp": "public/assets/images/personal-buildings/forge/inphinity/level-6.webp",
+          "metadata": "public/assets/metadata/personal-buildings/forge/inphinity/level-6.json"
+        }
+      }
+    },
+    "7": {
+      "title": "Master Forge Citadel",
+      "levelDescriptor": "Forge level 7, master forge citadel with grand central foundry, multi-tier furnace complex, relic-smith spire, creator hall, founder-level crafting monument",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Forge level 7, master forge citadel with grand central foundry, multi-tier furnace complex, relic-smith spire, creator hall, founder-level crafting monument",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Forge level 7, master forge citadel with grand central foundry, multi-tier furnace complex, relic-smith spire, creator hall, founder-level crafting monument",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Forge level 7, master forge citadel with grand central foundry, multi-tier furnace complex, relic-smith spire, creator hall, founder-level crafting monument",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Forge level 7, master forge citadel with grand central foundry, multi-tier furnace complex, relic-smith spire, creator hall, founder-level crafting monument",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/forge/inpinity/level-7.png",
+          "webp": "public/assets/images/personal-buildings/forge/inpinity/level-7.webp",
+          "metadata": "public/assets/metadata/personal-buildings/forge/inpinity/level-7.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/forge/inphinity/level-7.png",
+          "webp": "public/assets/images/personal-buildings/forge/inphinity/level-7.webp",
+          "metadata": "public/assets/metadata/personal-buildings/forge/inphinity/level-7.json"
+        }
+      }
+    }
+  }
+}

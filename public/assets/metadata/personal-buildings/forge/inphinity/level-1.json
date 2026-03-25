@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Forge - Inphinity - Level 1",
+  "description": "Forge level 1 personal building for the Inphinity faction in Inpinity City. Forge level 1, compact personal smithy with one furnace, one workbench, small anvil bay, short chimney, starter crafting station",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/forge/inphinity/level-1.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=forge&faction=inphinity&level=1",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Forge"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inphinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 1
+    },
+    {
+      "trait_type": "Title",
+      "value": "Starter Smithy"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Crafting"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Creator / Provenance / Quality"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 1"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "forge"
+    }
+  ]
+}

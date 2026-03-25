@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Forge - Inpinity - Level 3",
+  "description": "Forge level 3 personal building for the Inpinity faction in Inpinity City. Forge level 3, specialization-ready forge with dual smelters, shaping table, side armory annex, glowing slag channel, first true weapons-and-relic workshop identity",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/forge/inpinity/level-3.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=forge&faction=inpinity&level=3",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Forge"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inpinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 3
+    },
+    {
+      "trait_type": "Title",
+      "value": "Specialization-Ready Forge"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Crafting"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Creator / Provenance / Quality"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 3"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "forge"
+    }
+  ]
+}

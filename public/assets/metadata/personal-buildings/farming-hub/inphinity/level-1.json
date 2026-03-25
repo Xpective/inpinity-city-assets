@@ -1,0 +1,65 @@
+{
+  "name": "Inpinity City Personal Building — Farming Hub L1 (Inphinity)",
+  "description": "Starter Hydro Module. Personal Farming Hub Asset für Inphinity in Inpinity City. Basisstufe mit erster Hydro-Kuppel und klarer Farm-Silhouette.",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/farming-hub/inphinity/level-1.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inphinity&level=1",
+  "animation_url": "https://city.inpinity.online/building-level.html?building=farming-hub&faction=inphinity&level=1",
+  "attributes": [
+    {
+      "trait_type": "Collection",
+      "value": "Inpinity City Personal Buildings V1"
+    },
+    {
+      "trait_type": "Building Type",
+      "value": "Farming Hub"
+    },
+    {
+      "trait_type": "Faction Variant",
+      "value": "Inphinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 1
+    },
+    {
+      "trait_type": "Level Title",
+      "value": "Starter Hydro Module"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Production / Boost / Claim Support"
+    },
+    {
+      "trait_type": "Visual Direction",
+      "value": "Isometric City-Builder"
+    },
+    {
+      "trait_type": "Transfer Layer",
+      "value": "CityBuildingNFTV1"
+    },
+    {
+      "trait_type": "Logic Layer",
+      "value": "PersonalBuildings"
+    },
+    {
+      "trait_type": "Placement",
+      "value": "Requires completed personal plot"
+    },
+    {
+      "trait_type": "Profile 1",
+      "value": "farming boost bps 200"
+    },
+    {
+      "trait_type": "Profile 2",
+      "value": "boost duration bps 100"
+    },
+    {
+      "trait_type": "Profile 3",
+      "value": "claim window bonus bps 0"
+    },
+    {
+      "trait_type": "Profile 4",
+      "value": "chain bonus bps 0"
+    }
+  ]
+}
