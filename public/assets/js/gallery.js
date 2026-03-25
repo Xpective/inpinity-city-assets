@@ -1,80 +1,108 @@
+const CANONICAL_ORDER = [
+  'residence',
+  'farming-hub',
+  'forge',
+  'warehouse',
+  'market-stall',
+  'guard-tower',
+  'research-lab'
+];
+
+function sortItems(items, mode) {
+  const canonicalIndex = new Map(CANONICAL_ORDER.map((slug, i) => [slug, i]));
+  const copy = [...items];
+  if (mode === 'name') {
+    copy.sort((a, b) => a.name.localeCompare(b.name) || a.level - b.level || a.faction.localeCompare(b.faction));
+  } else if (mode === 'level') {
+    copy.sort((a, b) => a.level - b.level || a.name.localeCompare(b.name) || a.faction.localeCompare(b.faction));
+  } else {
+    copy.sort((a, b) => (canonicalIndex.get(a.slug) ?? 999) - (canonicalIndex.get(b.slug) ?? 999) || a.level - b.level || a.faction.localeCompare(b.faction));
+  }
+  return copy;
+}
+
+function renderScopeTable(summary) {
+  const tbody = document.getElementById('buildingTableBody');
+  if (!tbody) return;
+  tbody.innerHTML = '';
+  summary.forEach(entry => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td>${entry.name}</td>
+      <td>${entry.role}</td>
+      <td>${entry.synergies.join(', ')}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+function renderCards(items, summaryMap) {
+  const cards = document.getElementById('cards');
+  const empty = document.getElementById('emptyState');
+  const countChip = document.getElementById('countChip');
+  if (!cards) return;
+
+  cards.innerHTML = '';
+  countChip.textContent = `${items.length} Slots`;
+  empty.style.display = items.length ? 'none' : 'block';
+
+  items.forEach(item => {
+    const meta = summaryMap[item.slug] || {};
+    const card = document.createElement('article');
+    card.className = 'panel';
+
+    const hero = document.createElement('div');
+    attachImageOrFallback(hero, item.imageLocal, `${item.name} ${item.factionLabel} Level ${item.level}`, item, meta);
+
+    const link = document.createElement('a');
+    link.className = 'button primary';
+    link.href = `building-level.html?building=${item.slug}&faction=${item.faction}&level=${item.level}`;
+    link.textContent = 'Detailansicht';
+
+    const chips = (meta.synergies || []).slice(0, 3).map(s => `<span class="chip">${s}</span>`).join('');
+    card.innerHTML = `
+      <div class="kicker">${item.factionLabel} · Level ${item.level}</div>
+      <h3 style="margin-top:10px">${item.name}</h3>
+      <p class="muted">${item.title}</p>
+      <p>${meta.description || ''}</p>
+      <div class="chip-row">${chips}</div>
+      <div style="margin-top:16px"></div>
+    `;
+    card.querySelector('div:last-child').appendChild(link);
+    card.insertBefore(hero, card.firstChild.nextSibling);
+    cards.appendChild(card);
+  });
+}
+
 async function initGallery() {
   const [master, summary] = await Promise.all([
     loadJson('assets/manifests/personal-buildings-master.json'),
     loadJson('assets/manifests/personal-buildings-summary.json')
   ]);
-  const summaryMap = Object.fromEntries(summary.map(s => [s.slug, s]));
-  const cardsEl = document.getElementById('cards');
-  const tableBody = document.getElementById('buildingTableBody');
+
+  const summaryMap = Object.fromEntries(summary.map(x => [x.slug, x]));
+  renderScopeTable(summary);
+
   const factionSelect = document.getElementById('factionSelect');
   const levelSelect = document.getElementById('levelSelect');
   const sortSelect = document.getElementById('sortSelect');
-  const countChip = document.getElementById('countChip');
-  const emptyState = document.getElementById('emptyState');
 
-  summary.forEach(item => {
-    const tr = document.createElement('tr');
-    tr.innerHTML = `
-      <td><a href="building-level.html?building=${item.slug}&faction=inpinity&level=1"><strong>${item.name}</strong></a></td>
-      <td>${item.role}</td>
-      <td>${item.synergies.join(', ')}</td>
-    `;
-    tableBody.appendChild(tr);
-  });
+  const rerender = () => {
+    let items = [...master];
+    if (factionSelect.value !== 'all') items = items.filter(x => x.faction === factionSelect.value);
+    if (levelSelect.value !== 'all') items = items.filter(x => Number(x.level) === Number(levelSelect.value));
+    items = sortItems(items, sortSelect.value);
+    renderCards(items, summaryMap);
+  };
 
-  function getFiltered() {
-    let rows = [...master];
-    const faction = factionSelect.value;
-    const level = levelSelect.value;
-    const sort = sortSelect.value;
-
-    if (faction !== 'all') rows = rows.filter(r => r.faction === faction);
-    if (level !== 'all') rows = rows.filter(r => String(r.level) === String(level));
-
-    if (sort === 'name') {
-      rows.sort((a, b) => a.name.localeCompare(b.name) || a.faction.localeCompare(b.faction) || a.level - b.level);
-    } else if (sort === 'level') {
-      rows.sort((a, b) => a.level - b.level || a.name.localeCompare(b.name) || a.faction.localeCompare(b.faction));
-    }
-    return rows;
-  }
-
-  function renderCards() {
-    const rows = getFiltered();
-    countChip.textContent = `${rows.length} Slots`;
-    cardsEl.innerHTML = '';
-    emptyState.style.display = rows.length ? 'none' : 'block';
-
-    rows.forEach(item => {
-      const card = document.createElement('a');
-      card.className = 'card';
-      card.href = `building-level.html?building=${item.slug}&faction=${item.faction}&level=${item.level}`;
-      const meta = summaryMap[item.slug];
-      card.innerHTML = `
-        <div class="card-image"><div class="placeholder"></div></div>
-        <div class="card-body">
-          <div class="card-title">
-            <h3>${item.name}</h3>
-            <span class="chip">L${item.level}</span>
-          </div>
-          <div class="muted small">${item.title}</div>
-          <div class="meta">
-            <span class="chip">${item.factionLabel}</span>
-            <span class="chip">${meta.role}</span>
-          </div>
-          <p>${meta.tagline}</p>
-        </div>
-      `;
-      attachImageOrFallback(card.querySelector('.card-image'), item.imageLocal, `${item.name} ${item.factionLabel} Level ${item.level}`, item, meta);
-      cardsEl.appendChild(card);
-    });
-  }
-
-  [factionSelect, levelSelect, sortSelect].forEach(el => el.addEventListener('change', renderCards));
-  renderCards();
+  [factionSelect, levelSelect, sortSelect].forEach(el => el && el.addEventListener('change', rerender));
+  rerender();
 }
 
-initGallery().catch(err => {
-  console.error(err);
-  document.getElementById('cards').innerHTML = `<div class="empty">Fehler beim Laden der Gallery-Daten: ${err.message}</div>`;
+window.addEventListener('DOMContentLoaded', () => {
+  initGallery().catch(err => {
+    console.error(err);
+    const cards = document.getElementById('cards');
+    if (cards) cards.innerHTML = `<div class="empty">Gallery konnte nicht geladen werden: ${err.message}</div>`;
+  });
 });

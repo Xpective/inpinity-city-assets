@@ -2,106 +2,91 @@
   "CityConfig": {
     "label": "CityConfig",
     "address": "0x565076216ec76E7Af61BafBE22D8EA7C1C8DF691",
-    "abiLocal": null,
-    "kind": "city-core",
-    "notes": "City configuration registry"
+    "abiLocal": "/assets/abis/city-core/CityConfig.json",
+    "notes": "cityCore"
   },
   "CityRegistry": {
     "label": "CityRegistry",
     "address": "0x5d3269813Fea0C0F487A21cBf9992b95008558BF",
-    "abiLocal": null,
-    "kind": "city-core",
-    "notes": "Plot and owner reads"
+    "abiLocal": "/assets/abis/city-core/CityRegistry.json",
+    "notes": "cityCore"
   },
   "CityLand": {
     "label": "CityLand",
     "address": "0x0547a35c2Ff215004A2EBfe2Be5f3A8EeE6A5323",
-    "abiLocal": null,
-    "kind": "city-core",
-    "notes": "Plot completion and land logic"
+    "abiLocal": "/assets/abis/city-core/CityLand.json",
+    "notes": "cityCore"
   },
   "CityDistricts": {
     "label": "CityDistricts",
     "address": "0xB3cFaeDA09FB5ee84C3c26F276980773197af113",
-    "abiLocal": null,
-    "kind": "city-core",
-    "notes": "District reads"
+    "abiLocal": "/assets/abis/city-core/CityDistricts.json",
+    "notes": "cityCore"
   },
   "CityStatus": {
     "label": "CityStatus",
     "address": "0x28AfE371044e9AcD4C99Bef3F5FbBe2431cF04C0",
-    "abiLocal": null,
-    "kind": "city-core",
-    "notes": "Dormant/decayed/layer-eligible status"
+    "abiLocal": "/assets/abis/city-core/CityStatus.json",
+    "notes": "cityCore"
   },
   "CityHistory": {
     "label": "CityHistory",
     "address": "0x6C83aC3E4C58c493e3116E31cF7e32935497Af3c",
-    "abiLocal": null,
-    "kind": "city-core",
-    "notes": "History hooks"
+    "abiLocal": "/assets/abis/city-core/CityHistory.json",
+    "notes": "cityCore"
   },
   "CityValidation": {
     "label": "CityValidation",
     "address": "0x77BBd6850C2780055c4C20008145E9E5dEC20332",
-    "abiLocal": null,
-    "kind": "city-core",
-    "notes": "Validation layer"
-  },
-  "PartnershipV2": {
-    "label": "PartnershipV2",
-    "address": "0xb18323efE4Cc8c36e10D664E287b4e2c82Fe3ad9",
-    "abiLocal": "/assets/abis/PartnershipV2.json",
-    "kind": "live-abi",
-    "notes": "Partnership and token block integrations"
-  },
-  "ResourceToken": {
-    "label": "ResourceToken",
-    "address": "0x71E76a6065197acdd1a4d6B736712F80D1Fd3D8b",
-    "abiLocal": "/assets/abis/ResourceToken.json",
-    "kind": "live-abi",
-    "notes": "10-slot primitive resource layer"
-  },
-  "InpinityNFT": {
-    "label": "InpinityNFT",
-    "address": "0x277a0D5864293C78d7387C54B48c35D5E9578Ab1",
-    "abiLocal": "/assets/abis/InpinityNFT.json",
-    "kind": "live-abi",
-    "notes": "Current NFT layer"
+    "abiLocal": "/assets/abis/city-core/CityValidation.json",
+    "notes": "cityCore"
   },
   "INPI": {
     "label": "INPI",
     "address": "0x232FB12582ac10d5fAd97e9ECa22670e8Ba67d0D",
-    "abiLocal": "/assets/abis/INPI.json",
-    "kind": "live-abi",
-    "notes": "Live INPI token"
+    "abiLocal": "/assets/abis/ecosystem/INPI.json",
+    "notes": "ecosystem"
+  },
+  "ResourceToken": {
+    "label": "ResourceToken",
+    "address": "0x71E76a6065197acdd1a4d6B736712F80D1Fd3D8b",
+    "abiLocal": "/assets/abis/ecosystem/ResourceToken.json",
+    "notes": "ecosystem"
+  },
+  "InpinityNFT": {
+    "label": "InpinityNFT",
+    "address": "0x277a0D5864293C78d7387C54B48c35D5E9578Ab1",
+    "abiLocal": "/assets/abis/ecosystem/InpinityNFT.json",
+    "notes": "ecosystem"
+  },
+  "PartnershipV2": {
+    "label": "PartnershipV2",
+    "address": "0xb18323efE4Cc8c36e10D664E287b4e2c82Fe3ad9",
+    "abiLocal": "/assets/abis/ecosystem/PartnershipV2.json",
+    "notes": "ecosystem"
   },
   "Pitrone": {
     "label": "Pitrone",
-    "address": null,
-    "abiLocal": "/assets/abis/Pitrone.json",
-    "kind": "live-abi",
-    "notes": "PIT/Pitrone token layer"
+    "address": "0x7240Ec5B3Ba944888E186c74D0f8B4F5F71c9AE8",
+    "abiLocal": "/assets/abis/ecosystem/Pitrone.json",
+    "notes": "ecosystem"
   },
   "FarmingV6": {
     "label": "FarmingV6",
-    "address": null,
-    "abiLocal": "/assets/abis/FarmingV6.json",
-    "kind": "live-abi",
-    "notes": "Farming boost and stealable amount reads"
+    "address": "0x55Ee68e576E97288802D3b887d79Bf7177EfCb92",
+    "abiLocal": "/assets/abis/ecosystem/FarmingV6.json",
+    "notes": "ecosystem"
   },
   "PiratesV6": {
     "label": "PiratesV6",
-    "address": null,
-    "abiLocal": "/assets/abis/PiratesV6.json",
-    "kind": "live-abi",
-    "notes": "Pirates, attack and raid interface"
+    "address": "0xc3A9c40fE8664A0aa9243a8DEe27ADf4E4f9e731",
+    "abiLocal": "/assets/abis/ecosystem/PiratesV6.json",
+    "notes": "ecosystem"
   },
   "MercenaryV4": {
     "label": "MercenaryV4",
-    "address": null,
-    "abiLocal": "/assets/abis/MercenaryV4.json",
-    "kind": "live-abi",
-    "notes": "Mercenary hiring and defense hooks"
+    "address": "0x484d4ae1C70c938a4819B04d4b08DCBFf9639094",
+    "abiLocal": "/assets/abis/ecosystem/MercenaryV4.json",
+    "notes": "ecosystem"
   }
 }

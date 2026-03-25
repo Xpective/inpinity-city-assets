@@ -3,78 +3,75 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Inpinity City – Building Level Detail</title>
+  <title id="pageTitle">Building Level</title>
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <div class="container">
-    <header class="topbar">
-      <div class="brand">
-        <div class="logo">IC</div>
-        <div>
-          <h1 id="pageTitle">Building Level Detail</h1>
-          <p id="pageSubtitle">Detailansicht für ein Personal Building. Das Interface nutzt Manifest-, Summary- und Contract-Daten gleichzeitig.</p>
-        </div>
-      </div>
-      <a class="button" href="index.html">← zurück zur Gallery</a>
-    </header>
-
+  <div id="app" class="container">
     <section class="hero">
-      <div class="kicker">Detail / NFT / Interface / Hooks</div>
+      <a class="badge" href="index.html">← zurück zur Übersicht</a>
       <div class="hero-asset" style="margin-top:18px">
-        <div class="hero-image" id="heroImageWrap"></div>
+        <div id="heroImageWrap" class="hero-image"></div>
         <div class="panel">
-          <div class="chip-row" style="margin-bottom:14px">
-            <span class="chip" id="factionChip"></span>
-            <span class="chip" id="levelChip"></span>
-            <span class="chip" id="roleChip"></span>
+          <small class="kicker">Personal Building / Level Detail View</small>
+          <h1 id="buildingName">Residence</h1>
+          <div class="lead">
+            <div id="buildingTagline"></div>
+            <div id="buildingDescription"></div>
           </div>
-          <h2 id="buildingName" style="margin-bottom:8px"></h2>
-          <p id="buildingTagline"></p>
-          <div class="notice" style="margin-top:16px" id="levelHighlight"></div>
-          <div class="controls" style="margin-top:16px">
-            <a class="button primary" id="imageLink" target="_blank" rel="noreferrer">Image öffnen</a>
-            <a class="button" id="metadataLink" target="_blank" rel="noreferrer">Metadata öffnen</a>
-            <a class="button" id="externalLink" target="_blank" rel="noreferrer">External URL</a>
+          <div class="chip-row" style="margin:18px 0">
+            <span class="chip" id="factionChip">Inpinity</span>
+            <span class="chip" id="levelChip">Level 1</span>
+            <span class="chip" id="roleChip">Role</span>
           </div>
-          <div class="level-strip" id="levelStrip" style="margin-top:18px"></div>
+          <h2 id="pageSubtitle" style="margin:8px 0 6px 0">Level 1</h2>
+          <p id="levelHighlight"></p>
+          <div class="controls" style="margin-top:18px">
+            <a id="prevLevel" class="button" href="#">← Level zurück</a>
+            <a id="nextLevel" class="button" href="#">Level weiter →</a>
+            <a id="switchFaction" class="button primary" href="#">Fraktion wechseln</a>
+          </div>
+          <div id="levelStrip" class="chip-row" style="margin-top:18px"></div>
+          <div class="controls" style="margin-top:18px">
+            <a id="imageLink" class="button" target="_blank" rel="noreferrer" href="#">Image öffnen</a>
+            <a id="metadataLink" class="button" target="_blank" rel="noreferrer" href="#">Metadata öffnen</a>
+            <a id="externalLink" class="button" target="_blank" rel="noreferrer" href="#">Extern öffnen</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="grid grid-2">
+    <section class="grid grid-2" style="margin-top:18px">
       <article class="panel">
-        <h2>URI / Routing</h2>
+        <h2>Routing / NFT URI</h2>
         <div class="kv">
           <div class="muted">Image URI</div><div class="addr" id="imageUri"></div>
           <div class="muted">Metadata URI</div><div class="addr" id="metadataUri"></div>
           <div class="muted">External URL</div><div class="addr" id="externalUri"></div>
-          <div class="muted">Local Image</div><div class="addr" id="imageLocal"></div>
-          <div class="muted">Local Metadata</div><div class="addr" id="metadataLocal"></div>
+          <div class="muted">Lokaler Bildpfad</div><div class="addr" id="imageLocal"></div>
+          <div class="muted">Lokaler Metadata-Pfad</div><div class="addr" id="metadataLocal"></div>
         </div>
       </article>
 
       <article class="panel">
-        <h2>Gebäudeprofil</h2>
-        <p id="buildingDescription"></p>
-        <h3 style="margin-top:18px">Synergien</h3>
-        <div class="chip-row" id="synergyRow"></div>
+        <h2>Synergien</h2>
+        <div id="synergyRow" class="chip-row"></div>
         <h3 style="margin-top:18px">Spezialisierungen</h3>
-        <div class="chip-row" id="specRow"></div>
+        <div id="specRow" class="chip-row"></div>
       </article>
     </section>
 
     <section class="grid grid-2" style="margin-top:18px">
       <article class="panel">
-        <h2>Placement-Regeln</h2>
-        <div class="list" id="placementList"></div>
-        <h3 style="margin-top:18px">Future Contracts</h3>
-        <div class="chip-row" id="futureContracts"></div>
+        <h2>Placement Voraussetzungen</h2>
+        <div id="placementList"></div>
+        <h3 style="margin-top:18px">Spätere Hook-Contracts</h3>
+        <div id="futureContracts" class="chip-row"></div>
       </article>
 
       <article class="panel">
-        <h2>Contract Hooks / ABIs</h2>
-        <div class="list" id="hookList"></div>
+        <h2>Contract Hooks</h2>
+        <div id="hookList"></div>
       </article>
     </section>
 
@@ -82,16 +79,6 @@
       <article class="panel">
         <h2>Sample Metadata</h2>
         <div class="code-box"><pre id="metadataPreview"></pre></div>
-      </article>
-
-      <article class="panel">
-        <h2>Andere Varianten</h2>
-        <div class="controls">
-          <a class="button" id="switchFaction">Fraktion wechseln</a>
-          <a class="button" id="prevLevel">Voriges Level</a>
-          <a class="button" id="nextLevel">Nächstes Level</a>
-        </div>
-        <div class="chip-row" id="variantChips" style="margin-top:18px"></div>
       </article>
     </section>
   </div>

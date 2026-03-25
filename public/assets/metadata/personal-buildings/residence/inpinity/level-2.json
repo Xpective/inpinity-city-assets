@@ -1,20 +1,12 @@
 {
-  "name": "Residence — Inpinity Level 2",
-  "description": "Residence ist das soziale und visuelle Kerngebäude. Es wächst von einem kompakten Prestige-Home zu einer sammlerwürdigen Legacy-Residence mit Gallery- und Trophy-Potential. Variant: Social Residence.",
+  "name": "Inpinity City Residence — Inpinity Level 2",
+  "description": "Personal Building NFT asset for Inpinity City. Residence line with creator-settable image routing and level-based interface support.",
   "image": "https://assets.inpinity.online/city/images/buildings/personal/residence/inpinity/level-2.png",
   "external_url": "https://city.inpinity.online/building-level.html?building=residence&faction=inpinity&level=2",
   "attributes": [
     {
-      "trait_type": "Category",
-      "value": "Personal Building"
-    },
-    {
-      "trait_type": "Building",
+      "trait_type": "Building Type",
       "value": "Residence"
-    },
-    {
-      "trait_type": "Slug",
-      "value": "residence"
     },
     {
       "trait_type": "Faction",
@@ -22,47 +14,7 @@
     },
     {
       "trait_type": "Level",
-      "display_type": "number",
       "value": 2
-    },
-    {
-      "trait_type": "Level Title",
-      "value": "Social Residence"
-    },
-    {
-      "trait_type": "Role",
-      "value": "Prestige / Identity / Showcase / Legacy"
-    },
-    {
-      "trait_type": "Primary Synergy",
-      "value": "Market Stall"
-    },
-    {
-      "trait_type": "Visual Stage",
-      "value": "L2 Social Residence"
     }
-  ],
-  "properties": {
-    "category": "personal-building",
-    "buildingSlug": "residence",
-    "faction": "inpinity",
-    "level": 2,
-    "imageLocal": "/assets/images/personal-buildings/residence/inpinity/level-2.png",
-    "metadataLocal": "/assets/metadata/personal-buildings/residence/inpinity/level-2.json",
-    "imageUri": "https://assets.inpinity.online/city/images/buildings/personal/residence/inpinity/level-2.png",
-    "metadataUri": "https://assets.inpinity.online/city/metadata/buildings/personal/residence/inpinity/level-2.json",
-    "specializations": [
-      "Gallery House",
-      "Trophy Hall"
-    ],
-    "hookTargets": [
-      "InpinityNFT",
-      "INPI"
-    ],
-    "synergies": [
-      "Market Stall",
-      "Research Lab",
-      "Forge"
-    ]
-  }
+  ]
 }
