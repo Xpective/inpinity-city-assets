@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Guard Tower - Inphinity - Level 2",
+  "description": "Guard Tower level 2 personal building for the Inphinity faction in Inpinity City. Guard Tower level 2, reinforced watchtower with higher parapet, second lookout deck, armor rack niche, stronger perimeter presence",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/guard-tower/inphinity/level-2.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=guard-tower&faction=inphinity&level=2",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Guard Tower"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inphinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 2
+    },
+    {
+      "trait_type": "Title",
+      "value": "Reinforced Watchtower"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Defense"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Protection / Radar / Raid Mitigation"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 2"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "guard-tower"
+    }
+  ]
+}

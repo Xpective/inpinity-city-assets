@@ -1,0 +1,156 @@
+{
+  "building": "guard-tower",
+  "displayName": "Guard Tower",
+  "role": "Defense, warehouse protection, raid mitigation, radar and shield progression.",
+  "negativePrompt": "people, character, crowd, vehicles, battle scene, explosions, smoke covering the building, text, letters, numbers, logo, UI frame, icon border, watermark, blurry image, low detail, muddy colors, multiple disconnected buildings, giant cityscape dominating the scene, cut off edges, cropped roof, distorted perspective, deformed architecture, duplicate parts",
+  "recommendedSettings": {
+    "aspectRatio": "1:1",
+    "camera": "same isometric 3/4 top-down camera for every level of the guard tower",
+    "seedStrategy": "keep one seed per faction, then evolve from L1 to L7 with image reference when possible",
+    "guidance": "medium to medium-high",
+    "detailStrategy": "increase silhouette weight, parapet complexity, radar technology, shield hardware and fortress prestige gradually from L1 to L7",
+    "backgroundStrategy": "NFT variant may use subtle tactical atmosphere; UI variant should stay cleaner and easier to cut out"
+  },
+  "levels": {
+    "1": {
+      "title": "Starter Watch Post",
+      "levelDescriptor": "Guard Tower level 1, compact personal watch post with one lookout platform, one signal mast, shielded doorway, starter defense position",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Guard Tower level 1, compact personal watch post with one lookout platform, one signal mast, shielded doorway, starter defense position",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Guard Tower level 1, compact personal watch post with one lookout platform, one signal mast, shielded doorway, starter defense position",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Guard Tower level 1, compact personal watch post with one lookout platform, one signal mast, shielded doorway, starter defense position",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Guard Tower level 1, compact personal watch post with one lookout platform, one signal mast, shielded doorway, starter defense position",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/guard-tower/inpinity/level-1.png",
+          "webp": "public/assets/images/personal-buildings/guard-tower/inpinity/level-1.webp",
+          "metadata": "public/assets/metadata/personal-buildings/guard-tower/inpinity/level-1.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/guard-tower/inphinity/level-1.png",
+          "webp": "public/assets/images/personal-buildings/guard-tower/inphinity/level-1.webp",
+          "metadata": "public/assets/metadata/personal-buildings/guard-tower/inphinity/level-1.json"
+        }
+      }
+    },
+    "2": {
+      "title": "Reinforced Watchtower",
+      "levelDescriptor": "Guard Tower level 2, reinforced watchtower with higher parapet, second lookout deck, armor rack niche, stronger perimeter presence",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Guard Tower level 2, reinforced watchtower with higher parapet, second lookout deck, armor rack niche, stronger perimeter presence",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Guard Tower level 2, reinforced watchtower with higher parapet, second lookout deck, armor rack niche, stronger perimeter presence",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Guard Tower level 2, reinforced watchtower with higher parapet, second lookout deck, armor rack niche, stronger perimeter presence",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Guard Tower level 2, reinforced watchtower with higher parapet, second lookout deck, armor rack niche, stronger perimeter presence",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/guard-tower/inpinity/level-2.png",
+          "webp": "public/assets/images/personal-buildings/guard-tower/inpinity/level-2.webp",
+          "metadata": "public/assets/metadata/personal-buildings/guard-tower/inpinity/level-2.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/guard-tower/inphinity/level-2.png",
+          "webp": "public/assets/images/personal-buildings/guard-tower/inphinity/level-2.webp",
+          "metadata": "public/assets/metadata/personal-buildings/guard-tower/inphinity/level-2.json"
+        }
+      }
+    },
+    "3": {
+      "title": "Defense-Ready Tower",
+      "levelDescriptor": "Guard Tower level 3, defense-ready guard tower with fortified base, side beacon, tactical scan lens, small weapon platform, specialization-ready defense post",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Guard Tower level 3, defense-ready guard tower with fortified base, side beacon, tactical scan lens, small weapon platform, specialization-ready defense post",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Guard Tower level 3, defense-ready guard tower with fortified base, side beacon, tactical scan lens, small weapon platform, specialization-ready defense post",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Guard Tower level 3, defense-ready guard tower with fortified base, side beacon, tactical scan lens, small weapon platform, specialization-ready defense post",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Guard Tower level 3, defense-ready guard tower with fortified base, side beacon, tactical scan lens, small weapon platform, specialization-ready defense post",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/guard-tower/inpinity/level-3.png",
+          "webp": "public/assets/images/personal-buildings/guard-tower/inpinity/level-3.webp",
+          "metadata": "public/assets/metadata/personal-buildings/guard-tower/inpinity/level-3.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/guard-tower/inphinity/level-3.png",
+          "webp": "public/assets/images/personal-buildings/guard-tower/inphinity/level-3.webp",
+          "metadata": "public/assets/metadata/personal-buildings/guard-tower/inphinity/level-3.json"
+        }
+      }
+    },
+    "4": {
+      "title": "Bastion Scan Tower",
+      "levelDescriptor": "Guard Tower level 4, bastion scan tower with layered parapets, shield fins, warehouse protection annex, broader tactical control platform",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Guard Tower level 4, bastion scan tower with layered parapets, shield fins, warehouse protection annex, broader tactical control platform",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Guard Tower level 4, bastion scan tower with layered parapets, shield fins, warehouse protection annex, broader tactical control platform",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Guard Tower level 4, bastion scan tower with layered parapets, shield fins, warehouse protection annex, broader tactical control platform",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Guard Tower level 4, bastion scan tower with layered parapets, shield fins, warehouse protection annex, broader tactical control platform",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/guard-tower/inpinity/level-4.png",
+          "webp": "public/assets/images/personal-buildings/guard-tower/inpinity/level-4.webp",
+          "metadata": "public/assets/metadata/personal-buildings/guard-tower/inpinity/level-4.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/guard-tower/inphinity/level-4.png",
+          "webp": "public/assets/images/personal-buildings/guard-tower/inphinity/level-4.webp",
+          "metadata": "public/assets/metadata/personal-buildings/guard-tower/inphinity/level-4.json"
+        }
+      }
+    },
+    "5": {
+      "title": "Radar Defense Tower",
+      "levelDescriptor": "Guard Tower level 5, radar defense tower with elevated sensor crown, command balcony, hardened gatehouse core, anti-raid relay pylons",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Guard Tower level 5, radar defense tower with elevated sensor crown, command balcony, hardened gatehouse core, anti-raid relay pylons",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Guard Tower level 5, radar defense tower with elevated sensor crown, command balcony, hardened gatehouse core, anti-raid relay pylons",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Guard Tower level 5, radar defense tower with elevated sensor crown, command balcony, hardened gatehouse core, anti-raid relay pylons",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Guard Tower level 5, radar defense tower with elevated sensor crown, command balcony, hardened gatehouse core, anti-raid relay pylons",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/guard-tower/inpinity/level-5.png",
+          "webp": "public/assets/images/personal-buildings/guard-tower/inpinity/level-5.webp",
+          "metadata": "public/assets/metadata/personal-buildings/guard-tower/inpinity/level-5.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/guard-tower/inphinity/level-5.png",
+          "webp": "public/assets/images/personal-buildings/guard-tower/inphinity/level-5.webp",
+          "metadata": "public/assets/metadata/personal-buildings/guard-tower/inphinity/level-5.json"
+        }
+      }
+    },
+    "6": {
+      "title": "Tactical Shield Tower",
+      "levelDescriptor": "Guard Tower level 6, tactical shield tower with rotating radar ring, energy shield projectors, elite watch platform, heavy mitigation profile",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Guard Tower level 6, tactical shield tower with rotating radar ring, energy shield projectors, elite watch platform, heavy mitigation profile",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Guard Tower level 6, tactical shield tower with rotating radar ring, energy shield projectors, elite watch platform, heavy mitigation profile",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Guard Tower level 6, tactical shield tower with rotating radar ring, energy shield projectors, elite watch platform, heavy mitigation profile",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Guard Tower level 6, tactical shield tower with rotating radar ring, energy shield projectors, elite watch platform, heavy mitigation profile",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/guard-tower/inpinity/level-6.png",
+          "webp": "public/assets/images/personal-buildings/guard-tower/inpinity/level-6.webp",
+          "metadata": "public/assets/metadata/personal-buildings/guard-tower/inpinity/level-6.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/guard-tower/inphinity/level-6.png",
+          "webp": "public/assets/images/personal-buildings/guard-tower/inphinity/level-6.webp",
+          "metadata": "public/assets/metadata/personal-buildings/guard-tower/inphinity/level-6.json"
+        }
+      }
+    },
+    "7": {
+      "title": "Fortress Command Citadel",
+      "levelDescriptor": "Guard Tower level 7, fortress command citadel with grand radar crown, dual shield arrays, mercenary-ready command core, sovereign personal defense landmark",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Guard Tower level 7, fortress command citadel with grand radar crown, dual shield arrays, mercenary-ready command core, sovereign personal defense landmark",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Guard Tower level 7, fortress command citadel with grand radar crown, dual shield arrays, mercenary-ready command core, sovereign personal defense landmark",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Guard Tower level 7, fortress command citadel with grand radar crown, dual shield arrays, mercenary-ready command core, sovereign personal defense landmark",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Guard Tower level 7, fortress command citadel with grand radar crown, dual shield arrays, mercenary-ready command core, sovereign personal defense landmark",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/guard-tower/inpinity/level-7.png",
+          "webp": "public/assets/images/personal-buildings/guard-tower/inpinity/level-7.webp",
+          "metadata": "public/assets/metadata/personal-buildings/guard-tower/inpinity/level-7.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/guard-tower/inphinity/level-7.png",
+          "webp": "public/assets/images/personal-buildings/guard-tower/inphinity/level-7.webp",
+          "metadata": "public/assets/metadata/personal-buildings/guard-tower/inphinity/level-7.json"
+        }
+      }
+    }
+  }
+}
