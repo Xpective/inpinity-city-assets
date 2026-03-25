@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Research Lab - Inphinity - Level 7",
+  "description": "Research Lab level 7 personal building for the Inphinity faction in Inpinity City. Research Lab level 7, sovereign master lab with grand observatory crown, codex halo arrays, elite blueprint sanctum, ultimate personal research landmark",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inphinity/level-7.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inphinity&level=7",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Research Lab"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inphinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 7
+    },
+    {
+      "trait_type": "Title",
+      "value": "Sovereign Master Lab"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Research"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Discovery / Blueprints / Enchantment / Materia / Forge Synergy"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 7"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "research-lab"
+    }
+  ]
+}

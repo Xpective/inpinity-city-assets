@@ -1,0 +1,156 @@
+{
+  "building": "research-lab",
+  "displayName": "Research Lab",
+  "role": "Tech, discovery, blueprint unlocks, enchantment and materia preparation, plus forge synergy progression.",
+  "negativePrompt": "people, character, crowd, vehicles, battle scene, explosions, smoke covering the building, text, letters, numbers, logo, UI frame, icon border, watermark, blurry image, low detail, muddy colors, multiple disconnected buildings, giant cityscape dominating the scene, cut off edges, cropped roof, distorted perspective, deformed architecture, duplicate parts",
+  "recommendedSettings": {
+    "aspectRatio": "1:1",
+    "camera": "same isometric 3/4 top-down camera for every level of the research lab",
+    "seedStrategy": "keep one seed per faction, then evolve from L1 to L7 with image reference when possible",
+    "guidance": "medium to medium-high",
+    "detailStrategy": "increase dome complexity, blueprint hardware, codex and relay structures, enchantment and materia tech, and master-lab prestige gradually from L1 to L7",
+    "backgroundStrategy": "NFT variant may use subtle scientific atmosphere; UI variant should stay cleaner and easier to cut out"
+  },
+  "levels": {
+    "1": {
+      "title": "Starter Discovery Cell",
+      "levelDescriptor": "Research Lab level 1, compact personal discovery cell with one scan dome, one analysis alcove, starter research console, early tech archive",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Research Lab level 1, compact personal discovery cell with one scan dome, one analysis alcove, starter research console, early tech archive",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Research Lab level 1, compact personal discovery cell with one scan dome, one analysis alcove, starter research console, early tech archive",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Research Lab level 1, compact personal discovery cell with one scan dome, one analysis alcove, starter research console, early tech archive",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Research Lab level 1, compact personal discovery cell with one scan dome, one analysis alcove, starter research console, early tech archive",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/research-lab/inpinity/level-1.png",
+          "webp": "public/assets/images/personal-buildings/research-lab/inpinity/level-1.webp",
+          "metadata": "public/assets/metadata/personal-buildings/research-lab/inpinity/level-1.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/research-lab/inphinity/level-1.png",
+          "webp": "public/assets/images/personal-buildings/research-lab/inphinity/level-1.webp",
+          "metadata": "public/assets/metadata/personal-buildings/research-lab/inphinity/level-1.json"
+        }
+      }
+    },
+    "2": {
+      "title": "Proto Analysis Lab",
+      "levelDescriptor": "Research Lab level 2, proto analysis lab with dual scan pods, elevated data antenna, sample storage bay, clearer scientific identity",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Research Lab level 2, proto analysis lab with dual scan pods, elevated data antenna, sample storage bay, clearer scientific identity",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Research Lab level 2, proto analysis lab with dual scan pods, elevated data antenna, sample storage bay, clearer scientific identity",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Research Lab level 2, proto analysis lab with dual scan pods, elevated data antenna, sample storage bay, clearer scientific identity",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Research Lab level 2, proto analysis lab with dual scan pods, elevated data antenna, sample storage bay, clearer scientific identity",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/research-lab/inpinity/level-2.png",
+          "webp": "public/assets/images/personal-buildings/research-lab/inpinity/level-2.webp",
+          "metadata": "public/assets/metadata/personal-buildings/research-lab/inpinity/level-2.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/research-lab/inphinity/level-2.png",
+          "webp": "public/assets/images/personal-buildings/research-lab/inphinity/level-2.webp",
+          "metadata": "public/assets/metadata/personal-buildings/research-lab/inphinity/level-2.json"
+        }
+      }
+    },
+    "3": {
+      "title": "Blueprint Research Node",
+      "levelDescriptor": "Research Lab level 3, blueprint research node with observatory dome, codex pillar, precision experiment deck, specialization-ready discovery station",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Research Lab level 3, blueprint research node with observatory dome, codex pillar, precision experiment deck, specialization-ready discovery station",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Research Lab level 3, blueprint research node with observatory dome, codex pillar, precision experiment deck, specialization-ready discovery station",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Research Lab level 3, blueprint research node with observatory dome, codex pillar, precision experiment deck, specialization-ready discovery station",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Research Lab level 3, blueprint research node with observatory dome, codex pillar, precision experiment deck, specialization-ready discovery station",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/research-lab/inpinity/level-3.png",
+          "webp": "public/assets/images/personal-buildings/research-lab/inpinity/level-3.webp",
+          "metadata": "public/assets/metadata/personal-buildings/research-lab/inpinity/level-3.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/research-lab/inphinity/level-3.png",
+          "webp": "public/assets/images/personal-buildings/research-lab/inphinity/level-3.webp",
+          "metadata": "public/assets/metadata/personal-buildings/research-lab/inphinity/level-3.json"
+        }
+      }
+    },
+    "4": {
+      "title": "Applied Discovery Lab",
+      "levelDescriptor": "Research Lab level 4, applied discovery lab with expanded glass core, dual relay spires, layered experiment ring, stronger blueprint workflow",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Research Lab level 4, applied discovery lab with expanded glass core, dual relay spires, layered experiment ring, stronger blueprint workflow",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Research Lab level 4, applied discovery lab with expanded glass core, dual relay spires, layered experiment ring, stronger blueprint workflow",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Research Lab level 4, applied discovery lab with expanded glass core, dual relay spires, layered experiment ring, stronger blueprint workflow",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Research Lab level 4, applied discovery lab with expanded glass core, dual relay spires, layered experiment ring, stronger blueprint workflow",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/research-lab/inpinity/level-4.png",
+          "webp": "public/assets/images/personal-buildings/research-lab/inpinity/level-4.webp",
+          "metadata": "public/assets/metadata/personal-buildings/research-lab/inpinity/level-4.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/research-lab/inphinity/level-4.png",
+          "webp": "public/assets/images/personal-buildings/research-lab/inphinity/level-4.webp",
+          "metadata": "public/assets/metadata/personal-buildings/research-lab/inphinity/level-4.json"
+        }
+      }
+    },
+    "5": {
+      "title": "Enchantment Materia Wing",
+      "levelDescriptor": "Research Lab level 5, enchantment and materia wing with luminous reactor chamber, alchemy-tech side annex, blueprint archive vault, forge-synergy-ready research center",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Research Lab level 5, enchantment and materia wing with luminous reactor chamber, alchemy-tech side annex, blueprint archive vault, forge-synergy-ready research center",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Research Lab level 5, enchantment and materia wing with luminous reactor chamber, alchemy-tech side annex, blueprint archive vault, forge-synergy-ready research center",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Research Lab level 5, enchantment and materia wing with luminous reactor chamber, alchemy-tech side annex, blueprint archive vault, forge-synergy-ready research center",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Research Lab level 5, enchantment and materia wing with luminous reactor chamber, alchemy-tech side annex, blueprint archive vault, forge-synergy-ready research center",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/research-lab/inpinity/level-5.png",
+          "webp": "public/assets/images/personal-buildings/research-lab/inpinity/level-5.webp",
+          "metadata": "public/assets/metadata/personal-buildings/research-lab/inpinity/level-5.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/research-lab/inphinity/level-5.png",
+          "webp": "public/assets/images/personal-buildings/research-lab/inphinity/level-5.webp",
+          "metadata": "public/assets/metadata/personal-buildings/research-lab/inphinity/level-5.json"
+        }
+      }
+    },
+    "6": {
+      "title": "Advanced Knowledge Nexus",
+      "levelDescriptor": "Research Lab level 6, advanced knowledge nexus with rotating data halo, elevated observatory crown, multiple experiment terraces, high-tier enchant and materia infrastructure",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Research Lab level 6, advanced knowledge nexus with rotating data halo, elevated observatory crown, multiple experiment terraces, high-tier enchant and materia infrastructure",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Research Lab level 6, advanced knowledge nexus with rotating data halo, elevated observatory crown, multiple experiment terraces, high-tier enchant and materia infrastructure",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Research Lab level 6, advanced knowledge nexus with rotating data halo, elevated observatory crown, multiple experiment terraces, high-tier enchant and materia infrastructure",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Research Lab level 6, advanced knowledge nexus with rotating data halo, elevated observatory crown, multiple experiment terraces, high-tier enchant and materia infrastructure",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/research-lab/inpinity/level-6.png",
+          "webp": "public/assets/images/personal-buildings/research-lab/inpinity/level-6.webp",
+          "metadata": "public/assets/metadata/personal-buildings/research-lab/inpinity/level-6.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/research-lab/inphinity/level-6.png",
+          "webp": "public/assets/images/personal-buildings/research-lab/inphinity/level-6.webp",
+          "metadata": "public/assets/metadata/personal-buildings/research-lab/inphinity/level-6.json"
+        }
+      }
+    },
+    "7": {
+      "title": "Sovereign Master Lab",
+      "levelDescriptor": "Research Lab level 7, sovereign master lab with grand observatory crown, codex halo arrays, elite blueprint sanctum, ultimate personal research landmark",
+      "nftInpinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Research Lab level 7, sovereign master lab with grand observatory crown, codex halo arrays, elite blueprint sanctum, ultimate personal research landmark",
+      "uiInpinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inpinity faction style, advanced elegant civilization, cobalt blue and cyan energy, silver alloy, white stone, glass panels, cool luminous accents, refined clean geometry, hopeful futuristic atmosphere, Research Lab level 7, sovereign master lab with grand observatory crown, codex halo arrays, elite blueprint sanctum, ultimate personal research landmark",
+      "nftInphinity": "premium game-ready NFT illustration of a single isometric sci-fi fantasy building, 3/4 top-down view, centered composition, placed on a compact stone-tech platform, highly readable silhouette, intricate architectural detail, cinematic lighting, polished materials, collectible city-builder art, subtle atmosphere, clean framing, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Research Lab level 7, sovereign master lab with grand observatory crown, codex halo arrays, elite blueprint sanctum, ultimate personal research landmark",
+      "uiInphinity": "clean game asset render of a single isometric sci-fi fantasy building, 3/4 top-down view, centered, isolated structure on a compact stone-tech platform, crisp readable silhouette, controlled detail, neutral presentation for web interface, soft shadow, minimal background, no characters, no text, no logos, no UI, no watermark, square composition, Inphinity faction style, aggressive frontier civilization, obsidian black, crimson red, volcanic orange energy, dark steel, copper accents, heated industrial atmosphere, sharper angular geometry, powerful intimidating elegance, Research Lab level 7, sovereign master lab with grand observatory crown, codex halo arrays, elite blueprint sanctum, ultimate personal research landmark",
+      "imageTargets": {
+        "inpinity": {
+          "png": "public/assets/images/personal-buildings/research-lab/inpinity/level-7.png",
+          "webp": "public/assets/images/personal-buildings/research-lab/inpinity/level-7.webp",
+          "metadata": "public/assets/metadata/personal-buildings/research-lab/inpinity/level-7.json"
+        },
+        "inphinity": {
+          "png": "public/assets/images/personal-buildings/research-lab/inphinity/level-7.png",
+          "webp": "public/assets/images/personal-buildings/research-lab/inphinity/level-7.webp",
+          "metadata": "public/assets/metadata/personal-buildings/research-lab/inphinity/level-7.json"
+        }
+      }
+    }
+  }
+}

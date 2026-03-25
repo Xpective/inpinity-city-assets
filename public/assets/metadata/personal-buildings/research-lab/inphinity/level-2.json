@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Research Lab - Inphinity - Level 2",
+  "description": "Research Lab level 2 personal building for the Inphinity faction in Inpinity City. Research Lab level 2, proto analysis lab with dual scan pods, elevated data antenna, sample storage bay, clearer scientific identity",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inphinity/level-2.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inphinity&level=2",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Research Lab"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inphinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 2
+    },
+    {
+      "trait_type": "Title",
+      "value": "Proto Analysis Lab"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Research"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Discovery / Blueprints / Enchantment / Materia / Forge Synergy"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 2"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "research-lab"
+    }
+  ]
+}

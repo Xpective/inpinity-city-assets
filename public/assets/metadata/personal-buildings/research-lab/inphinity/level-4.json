@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Research Lab - Inphinity - Level 4",
+  "description": "Research Lab level 4 personal building for the Inphinity faction in Inpinity City. Research Lab level 4, applied discovery lab with expanded glass core, dual relay spires, layered experiment ring, stronger blueprint workflow",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inphinity/level-4.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inphinity&level=4",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Research Lab"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inphinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 4
+    },
+    {
+      "trait_type": "Title",
+      "value": "Applied Discovery Lab"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Research"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Discovery / Blueprints / Enchantment / Materia / Forge Synergy"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 4"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "research-lab"
+    }
+  ]
+}

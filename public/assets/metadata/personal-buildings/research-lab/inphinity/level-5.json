@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Research Lab - Inphinity - Level 5",
+  "description": "Research Lab level 5 personal building for the Inphinity faction in Inpinity City. Research Lab level 5, enchantment and materia wing with luminous reactor chamber, alchemy-tech side annex, blueprint archive vault, forge-synergy-ready research center",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inphinity/level-5.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inphinity&level=5",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Research Lab"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inphinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 5
+    },
+    {
+      "trait_type": "Title",
+      "value": "Enchantment Materia Wing"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Research"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Discovery / Blueprints / Enchantment / Materia / Forge Synergy"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 5"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "research-lab"
+    }
+  ]
+}

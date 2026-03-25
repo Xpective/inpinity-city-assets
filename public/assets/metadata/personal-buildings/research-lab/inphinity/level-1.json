@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Research Lab - Inphinity - Level 1",
+  "description": "Research Lab level 1 personal building for the Inphinity faction in Inpinity City. Research Lab level 1, compact personal discovery cell with one scan dome, one analysis alcove, starter research console, early tech archive",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inphinity/level-1.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inphinity&level=1",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Research Lab"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inphinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 1
+    },
+    {
+      "trait_type": "Title",
+      "value": "Starter Discovery Cell"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Research"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Discovery / Blueprints / Enchantment / Materia / Forge Synergy"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 1"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "research-lab"
+    }
+  ]
+}

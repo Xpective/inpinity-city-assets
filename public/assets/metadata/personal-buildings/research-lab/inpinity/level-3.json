@@ -1,0 +1,44 @@
+{
+  "name": "Inpinity City Personal Building - Research Lab - Inpinity - Level 3",
+  "description": "Research Lab level 3 personal building for the Inpinity faction in Inpinity City. Research Lab level 3, blueprint research node with observatory dome, codex pillar, precision experiment deck, specialization-ready discovery station",
+  "image": "https://assets.inpinity.online/city/images/buildings/personal/research-lab/inpinity/level-3.png",
+  "external_url": "https://city.inpinity.online/building-level.html?building=research-lab&faction=inpinity&level=3",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Personal Building"
+    },
+    {
+      "trait_type": "Building",
+      "value": "Research Lab"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Inpinity"
+    },
+    {
+      "trait_type": "Level",
+      "value": 3
+    },
+    {
+      "trait_type": "Title",
+      "value": "Blueprint Research Node"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Research"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Discovery / Blueprints / Enchantment / Materia / Forge Synergy"
+    },
+    {
+      "trait_type": "Visual Tier",
+      "value": "Tier 3"
+    },
+    {
+      "trait_type": "Slug",
+      "value": "research-lab"
+    }
+  ]
+}
