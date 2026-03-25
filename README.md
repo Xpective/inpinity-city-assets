@@ -1,71 +1,101 @@
-# inpinity-city-assets — Starter Seed
+# Inpinity City Assets
 
-Dieses Paket ist als erster Inhalt für das GitHub-Repo `Xpective/inpinity-city-assets` gedacht.
+Asset- und Interface-Repository für die **Personal Buildings** von **Inpinity City**.
 
-Es liefert dir direkt einen sauberen Start für drei Ebenen:
+Dieses Repo dient als zentrale Quelle für:
 
-- **NFT-Assets** für die 7 Personal Buildings in zwei Faction-Varianten
-- **Metadata + URI-Struktur** für Cloudflare / R2 / Subdomain-Auslieferung
-- **statische HTML-Demo** für den Flow `City Key -> Faction -> Residence/Building UI`
+- statische **NFT-Bilder**
+- **Level-Metadaten** für Personal Buildings
+- **Gallery- und Detailseiten** für das Web-Interface
+- **Manifeste** zur Zuordnung von Building, Fraktion und Level
+- **ABI-/Contract-Referenzen** für die City- und Ecosystem-Anbindung
+- **Prompt-Sammlungen** zur schrittweisen Bildgenerierung
 
-## Was schon drin ist
+---
 
-- `public/assets/images/personal-buildings/`  
-  14 Startgrafiken für die 7 Buildings in `inpinity` und `inphinity`
-- `public/assets/metadata/personal-buildings/`  
-  Beispiel-Metadata für NFT-URIs
-- `public/assets/abis/city-core/`  
-  CityConfig / Registry / Land / Districts / Status / History / Validation
-- `public/assets/abis/ecosystem/`  
-  InpinityNFT / ResourceToken / INPI / Pitrone / FarmingV6 / PiratesV6 / MercenaryV4 / PartnershipV2
-- `public/index.html`  
-  Starter-Übersicht mit Building-Karten
-- `public/building.html`  
-  bildhafte Detailseite pro Building
-- `prompts/personal-buildings/`  
-  Prompt-Dateien, damit wir die finalen Bildgenerationen gemeinsam schrittweise verfeinern können
-- `docs/`  
-  Cloudflare-, GitHub-, Repo-Fill- und Asset-Routing-Hinweise
+## Ziel des Repos
 
-## Schnell lokal testen
+Die Personal Buildings von Inpinity City sollen:
 
-```bash
-cd public
-python3 -m http.server 8787
-```
+- visuell als **NFTs** funktionieren
+- im **Web-Interface** automatisch je nach Building / Fraktion / Level angezeigt werden
+- später sauber mit den bestehenden **City Contracts**, **ABIs** und **Metadata-URIs** zusammenarbeiten
+- über eine eigene Asset-Domain wie z. B. `assets.inpinity.online` ausgeliefert werden
 
-Dann öffnen:
+Dieses Repo ist also die **Asset-, Metadata- und Frontend-Schicht** für die City-Buildings.
 
-- `http://localhost:8787`
-- `http://localhost:8787/building.html?building=residence&faction=inpinity`
+---
 
-## Empfohlene Live-Struktur
+## Aktueller Fokus
 
-- App/UI: `https://city.inpinity.online`
-- Assets: `https://assets.inpinity.online/city/...`
+Der aktuelle Schwerpunkt liegt auf den **7 Personal Buildings**:
 
-Beispiele:
+1. Residence
+2. Farming Hub
+3. Forge
+4. Warehouse
+5. Market Stall
+6. Guard Tower
+7. Research Lab
 
-- Image: `https://assets.inpinity.online/city/images/buildings/personal/residence-inpinity.png`
-- Metadata: `https://assets.inpinity.online/city/metadata/buildings/personal/residence-inpinity.json`
+Für jedes Building sind vorbereitet:
 
-## Wichtige Regel
+- **2 Fraktionen**
+  - Inpinity
+  - Inphinity
+- **7 Level**
+  - Level 1 bis Level 7
+- strukturierte Pfade für:
+  - Bilder
+  - Metadaten
+  - Manifeste
+  - Prompts
 
-- **CityBuildingNFTV1** = Asset-/Identity-/URI-Schicht
-- **PersonalBuildings** = Gameplay-/Logic-Schicht
+Das ergibt insgesamt:
 
-Nicht vermischen.
+- **7 Buildings**
+- **2 Fraktionen**
+- **7 Level**
+- = **98 Varianten**
 
-## Empfohlener nächster Git-Schritt
+---
 
-Falls du dieses Paket direkt in das neue Repo legen willst:
+## Repo-Struktur
 
-```bash
-git clone https://github.com/Xpective/inpinity-city-assets.git
-cd inpinity-city-assets
-# dann den Inhalt dieses Starter-Pakets hineinkopieren
-# danach:
-git add .
-git commit -m "seed personal buildings asset structure"
-git push origin main
-```
+```text
+inpinity-city-assets/
+├─ cloudflare/
+├─ docs/
+├─ prompts/
+│  ├─ residence/
+│  ├─ farming-hub/
+│  ├─ forge/
+│  ├─ warehouse/
+│  ├─ market-stall/
+│  ├─ guard-tower/
+│  ├─ research-lab/
+│  └─ personal-buildings/
+├─ public/
+│  ├─ index.html
+│  ├─ building-level.html
+│  └─ assets/
+│     ├─ abis/
+│     │  ├─ city-core/
+│     │  └─ ecosystem/
+│     ├─ css/
+│     ├─ js/
+│     ├─ images/
+│     │  └─ personal-buildings/
+│     │     ├─ residence/
+│     │     ├─ farming-hub/
+│     │     ├─ forge/
+│     │     ├─ warehouse/
+│     │     ├─ market-stall/
+│     │     ├─ guard-tower/
+│     │     └─ research-lab/
+│     ├─ manifests/
+│     └─ metadata/
+│        └─ personal-buildings/
+├─ scripts/
+├─ package.json
+└─ README.md
